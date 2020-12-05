@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<p:sammlung xmlns:p="urn:Test.Namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:Test.Namespace manuscript-v06.xsd ">
+    <p:manuskriptType>
+        <p:meta>
+            <p:manuSignatur>London, British Library, Add., 34107</p:manuSignatur>
+            <p:manuTitel>Tetraeuangelium</p:manuTitel>
+            <p:manuReferenz>39107, GA 1279</p:manuReferenz>
+            <p:manuKopist>Hanmer Lewis Dupuis (possesseur), Μονὴ τῆς Παναγίας ἐπονομαζομένης Ῥενδήνης (possesseur)</p:manuKopist>
+            <p:manuKommentar></p:manuKommentar>
+            <p:manuDatum></p:manuDatum>
+            <p:manuLink>https://pinakes.irht.cnrs.fr/notices/cote/39107/</p:manuLink>
+        </p:meta>
+        <p:cu>
+            <p:cuMeta>
+                <p:cuNummer>1.R</p:cuNummer>
+                <p:cuFolio>f. 1-5</p:cuFolio>
+                <p:cuTitel>Euang. Matth. (rest.)</p:cuTitel>
+                <p:cuReferenz>GA 1279</p:cuReferenz>
+                <p:cuTyp>Restauration</p:cuTyp>
+                <p:cuDatum>15</p:cuDatum>
+                <p:cuKopist></p:cuKopist>
+                <p:cuKommentar>- At the beginning of the ms.: no visible initial flyleaves but the front board can be seen in the reproduction. 
+- At the end of the ms.: no visible final flyleaves, the back board appears as the last image in the VMR reproduction.
+- The reproduction appears to be complete.
+- No apparatus of any kind present in the restored portion.</p:cuKommentar>
+            </p:cuMeta>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 1v quart. 2</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Annotatio anagraphica possessoris</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Annotationes</p:inhaltKategorie>
+                <p:inhaltDetails>Textus, το παρον τετραευαγγελιον ειναι της Παναγιας μου της επονομαζομενης Ρενδηνης και οποιος αυτο αποξενωσει εκ της μονης/
+το παρον τετραευ</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 15</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>EA</p:inhaltBezugCU>
+                <p:inhaltKommentar>Annotation dated by the British Museum&#039;s online catalogue.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 2r quart. 1 inc.-5v quart. 4 med.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Matthaeum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent,  / Desinit abruptus, ποιησατε ουν καρπον αξιον της μετα[νοιας] (μετανοιας)</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 15</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>- f. 1rv empty except for added poss. marks and probationes pennae.
+-Restoration containing Matthew 1:1-3:8.
+-The Gospel continues in UC 2.A without any loss of text.</p:inhaltKommentar>
+            </p:inhalt>
+        </p:cu>
+        <p:cu>
+            <p:cuMeta>
+                <p:cuNummer>2.A</p:cuNummer>
+                <p:cuFolio>f. 6-213</p:cuFolio>
+                <p:cuTitel>Tetraeuangelium</p:cuTitel>
+                <p:cuReferenz>GA 1279</p:cuReferenz>
+                <p:cuTyp>Unité principale (primaire)</p:cuTyp>
+                <p:cuDatum>11-12</p:cuDatum>
+                <p:cuKopist></p:cuKopist>
+                <p:cuKommentar>- Marginal notes written in Arabic on f. 6r,  59v and 111v.
+
+</p:cuKommentar>
+            </p:cuMeta>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 6r marg. sin.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Annotatio anagraphica alia</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Annotationes</p:inhaltKategorie>
+                <p:inhaltDetails>Monocondylia et Monogrammata, présent,  / Annotationes uel textus arabici, présent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle ?</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>EA</p:inhaltBezugCU>
+                <p:inhaltKommentar>-The top left margin contains (what looks to be) a small monocondylion. It is difficult to read but seems to be a scribal note. See also f. 71r.
+- There is also a barely legible marginal note in Arabic in the right-hand margin.
+- As the marginal note remains undeciphered, the anchor text, at present, applies only to the monocondylion.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 6r-69r quart. 4 des.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Matthaeum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails>Incipit abruptus, [μετα]νοιας (μετανοιας) και μη δοξητε λεγειν / Titulus finalis, présent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11-12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>- The Gospel text begins at the end of Matth. 3,8.
+- The end of the Gospel text is written in the shape of a cross.
+
+
+
+</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 59v marg. sin. quart. 2 - quart. 3</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Annotatio maior</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Annotationes</p:inhaltKategorie>
+                <p:inhaltDetails>Annotationes uel textus arabici, présent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11-12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>EA</p:inhaltBezugCU>
+                <p:inhaltKommentar>Marginal note in Arabic.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 69r quart. 3</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Incipit &quot;ευαγγελιστην τον τελωνην&quot;</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Versus et Epigrammata</p:inhaltKategorie>
+                <p:inhaltDetails>Textus, ευαγγελιστην τον τελωνην ο δειξας ιλεως καμοι εσ[τ]ω (εστω) (?) τω τρισαθλιω.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11-12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Pas clair</p:inhaltBezugCU>
+                <p:inhaltKommentar>The inscription is written in red ink in the blank spaces around the cruciform Gospel text.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 69v quart. 1 inc.-70v quart. 1 med.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Marc.: capitula</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Capitula librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Detail(s), λεʹ Περι των επερωτησαντων τον κυριον αρχι
+
+λϛʹ Περεων (sic!) και πρεσβυτερων / Desinit, μθʹ(!) Περι της αιτησεως του σωματος του κυριου.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11-12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Pas clair</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 71r marg. sin. quart. 1 inc.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Annotatio anagraphica alia</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Annotationes</p:inhaltKategorie>
+                <p:inhaltDetails>Monocondylia et Monogrammata, présent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle ?</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>EA</p:inhaltBezugCU>
+                <p:inhaltKommentar>A monocondylion which is difficult to read, see also f. 6r.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 71r-109r quart. 2</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Marcum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent,  / Titulus finalis, absent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11-12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 109v quart. 1 inc.-111r quart. 3</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Luc.: capitula</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Capitula librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Desinit, πγʹ Περι Κλεοπα.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11-12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Pas clair</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 111v quart. 2</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Incipit &quot;ευαγγελιστην Μαρκον&quot;</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Versus et Epigrammata</p:inhaltKategorie>
+                <p:inhaltDetails>Textus, ευαγγελιστην Μαρκον ο δειξας ιλεως καμοι εσ[τ]ω (εστω) (?) τῳ τρισαθλιω. / Annotationes uel textus arabici, présent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11-12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Pas clair</p:inhaltBezugCU>
+                <p:inhaltKommentar>On this folio are also various probationes pennae and a faded inscription in Arabic.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 112r marg. dextr. quart. 1 inc.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Annotatio anagraphica alia</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Annotationes</p:inhaltKategorie>
+                <p:inhaltDetails>Monocondylia et Monogrammata, présent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle ?</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>EA</p:inhaltBezugCU>
+                <p:inhaltKommentar>Monogram.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 112r-169v quart. 3</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Lucam</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent,  / Titulus finalis, absent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11-12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 170r</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Ioh.: capitula</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Capitula librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Desinit, ιηʹ Περι της αιτησεως του κυριακου σωματος.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11-12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Pas clair</p:inhaltBezugCU>
+                <p:inhaltKommentar>f. 170v is blank.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 171r marg. sup. quart. 1 inc.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Annotatio anagraphica alia</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Annotationes</p:inhaltKategorie>
+                <p:inhaltDetails>Monocondylia et Monogrammata, présent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle ?</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>EA</p:inhaltBezugCU>
+                <p:inhaltKommentar>Monocondylion, partially truncated at the top.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 171r-213r quart. 4 des.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Iohannem</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent,  / Titulus finalis, absent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11-12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>-The end of the Gospel text is written in the form of a cross. In the blank spaces on either side letters are written to form a Christogram with the phrase ΙΗΣΟΥΣ ΧΡΙΣΤΟΣ ΝΙΚΑ.
+- F. 213v, orginally blank, now contains various notes and scribbles, many of them faded and barely legible.</p:inhaltKommentar>
+            </p:inhalt>
+        </p:cu>
+    </p:manuskriptType>
+</p:sammlung>

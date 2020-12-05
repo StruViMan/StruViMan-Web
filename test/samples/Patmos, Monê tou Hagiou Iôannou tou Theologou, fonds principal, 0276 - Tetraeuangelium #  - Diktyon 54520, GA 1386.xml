@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<p:sammlung xmlns:p="urn:Test.Namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:Test.Namespace manuscript-v06.xsd ">
+    <p:manuskriptType>
+        <p:meta>
+            <p:manuSignatur>Patmos, Monê tou Hagiou Iôannou tou Theologou, fonds principal, 0276</p:manuSignatur>
+            <p:manuTitel>Tetraeuangelium</p:manuTitel>
+            <p:manuReferenz>54520, GA 1386</p:manuReferenz>
+            <p:manuKopist></p:manuKopist>
+            <p:manuKommentar>Cat. Aland 1386</p:manuKommentar>
+            <p:manuDatum></p:manuDatum>
+            <p:manuLink>https://pinakes.irht.cnrs.fr/notices/cote/54520/</p:manuLink>
+        </p:meta>
+        <p:cu>
+            <p:cuMeta>
+                <p:cuNummer>1.A</p:cuNummer>
+                <p:cuFolio>f. 1-62, 234-241, 63-233</p:cuFolio>
+                <p:cuTitel>Tetraeuangelium cum tabulis liturgicis, prologis, capitulis</p:cuTitel>
+                <p:cuReferenz></p:cuReferenz>
+                <p:cuTyp>Unité principale (primaire)</p:cuTyp>
+                <p:cuDatum>12</p:cuDatum>
+                <p:cuKopist></p:cuKopist>
+                <p:cuKommentar>- Ordo foliorum perturbatus (f. 234-241 inter f. 62-63 posita sunt).
+- Codex mut. in fine.</p:cuKommentar>
+            </p:cuMeta>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 1r a quart. 1 inc.-4v a quart. 4 des.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Tabulae liturgicae</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Liturgica</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 4v b quart. 1 inc.-5v a quart. 4 des.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Irenaeus Lugdunensis ep.,  In Euang.: excerptum ex Irenaeo de quattuor euangeliis &quot;τέσσαρα τοίνυν... διὰ τούτων δεικνύς&quot;</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Prologi Librorum Biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent, Περι των τεσσαρων ευαγγελιων και τινων εικονες εισι τα δ´ ευαγγελια. / Incipit, Τεσσαρα τοινυν εισι τα ευαγγελια / Desinit, δια τουτων δεικνυς.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 5v b-6v b</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Matth.: capitula</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Capitula librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>inc. et des. = ed.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 7r-62v, 63r-74v</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Matthaeum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>Ordo foliorum perturbatus, cf. remarque UC.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 75r a quart. 1 inc.-75v b quart. 2</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Marc.: capitula</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Capitula librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>inc. et des. = ed.
+</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 76r-119v</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Marcum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 120r-121v</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Luc.: capitula</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Capitula librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>inc. et des. = ed.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 122r-195v a</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Lucam</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 195v b</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Ioh.: capitula</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Capitula librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>inc. et des. = ed.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 196r-233v, 234r-241v</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Iohannem</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>- f. 234-241 (Ioh. 14,11-18,27) inter f. 62-63 posita sunt.
+- des. mut. (Ioh. 18,27)</p:inhaltKommentar>
+            </p:inhalt>
+        </p:cu>
+    </p:manuskriptType>
+</p:sammlung>

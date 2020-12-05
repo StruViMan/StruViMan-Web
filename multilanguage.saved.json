@@ -1,0 +1,529 @@
+{
+    "en": {
+        "menu": {
+            "manu": "Manuscripts",
+            "noManu": "No Manuscripts",
+            "tile": "Tile Manuscripts",
+            "show": "Show all",
+            "close": "Close all",
+            "delete": "Delete all",
+            "cav": "Colors & Visibility",
+            "all": "Change in all open windows",
+            "settings": "show/hide Labels",
+            "help": "Information & Help"
+        },
+        "lang": {
+            "en": "English",
+            "de": "German",
+            "fr": "French"
+        },
+        "mode": {
+            "easy": "Easy Mode",
+            "advanced": "Advanced Mode"
+        },
+        "manu": {
+            "pu": "Production Units",
+            "pc": "Pieces of Content",
+            "mai": "Manuscript",
+            "pui": "Production Unit",
+            "pci": "Piece of Content"
+        },
+        "settings": {
+            "pul": "Production Unit Labels",
+            "csl": "Content Segment labels",
+            "ti": "Title",
+            "ia": "Information Area",
+            "display": "Content Segment display",
+            "dispBR": "Best Readability",
+            "dispP": "Proportional",
+            "dispACE": "All Content equal"
+        },
+        "info": {
+            "mshelfmark": "Shelfmark",
+            "mtitle": "Title",
+            "mreference": "Reference",
+            "mscribe": "Scribe",
+            "mcomments": "Comments",
+            "mlink": "Link",
+            "snumber": "Number",
+            "sfolio": "Folio",
+            "stitle": "Title",
+            "sreference": "Reference",
+            "stype": "Type",
+            "sdate": "Date",
+            "sscribe": "Scribe",
+            "scomments": "Comments",
+            "inumber": "Number",
+            "ifolio": "Folio",
+            "ireference": "Reference",
+            "iwork": "Work",
+            "id": "ID",
+            "icategory": "Category",
+            "idetails": "Details",
+            "idate": "Date",
+            "iscribe": "Scribe",
+            "isection": "Section",
+            "icomments": "Comments",
+            "smaterialsupport": "Material Support"
+        },
+        "i18n": {
+            "language": "Language"
+        },
+        "screen": {
+            "title": "Screenshot",
+            "text": "Click on image with the right mouse button to copy the image."
+        },
+        "delete": {
+            "title": "Remove",
+            "text1": "Are you sure you want to remove the Manuscript from the workspace?",
+            "text2": "Are you sure you want to remove all the Manuscripts from the workspace?",
+            "yes": "Yes",
+            "no": "No",
+            "success1": "Manuscript removed",
+            "success2": "All Manuscripts removed"
+        },
+        "cookies": {
+            "title": "Cookies",
+            "message": "We use cookies to provide the best possible functionality.",
+            "button": "Got it!"
+        },
+        "coled": {
+            "cu": "Production units",
+            "segment": "Pieces of Content "
+        },
+        "help": {
+            "page": "help.en.html",
+            "wintitle": "Help"
+        },
+        "view": {
+            "button": "Display Mode"
+        }
+    },
+    "de": {
+        "menu": {
+            "manu": "Manuskripte",
+            "noManu": "Keine Manuskripte",
+            "tile": "Manuskripte anordnen",
+            "show": "Alle anzeigen",
+            "close": "Alle schließen",
+            "delete": "Alle löschen",
+            "cav": "Farben & Sichtbarkeit",
+            "all": "In allen geöffneten Fenstern ändern",
+            "settings": "Labels anzeigen/ausblenden",
+            "help": "Information & Hilfe"
+        },
+        "lang": {
+            "en": "Englisch",
+            "de": "Deutsch",
+            "fr": "Französisch"
+        },
+        "mode": {
+            "easy": "Einfacher Modus",
+            "advanced": "Fortgeschrittener Modus"
+        },
+        "manu": {
+            "pu": "Produktionseinheiten",
+            "pc": "Inhaltselemente",
+            "mai": "Manuskript",
+            "pui": "Produktionseinheit",
+            "pci": "Inhaltselement"
+        },
+        "settings": {
+            "pul": "Beschriftung Produktionseinheiten",
+            "csl": "Beschriftung Inhaltselemente",
+            "ti": "Titel",
+            "ia": "Informationbereich",
+            "display": "Anzeige der Inhaltselemente",
+            "dispBR": "Beste Lesbarkeit",
+            "dispP": "Proportional",
+            "dispACE": "Alle Inhalte gleich"
+        },
+        "info": {
+            "mshelfmark": "Signatur",
+            "mtitle": "Titel",
+            "mreference": "Referenz",
+            "mscribe": "Schreiber",
+            "mcomments": "Kommentare",
+            "mlink": "Link",
+            "snumber": "Nummer",
+            "sfolio": "Folio",
+            "stitle": "Titel",
+            "sreference": "Referenz",
+            "stype": "Art",
+            "sdate": "Datum",
+            "sscribe": "Schreiber",
+            "scomments": "Kommentare",
+            "inumber": "Nummer",
+            "ifolio": "Folio",
+            "ireference": "Referenz",
+            "iwork": "Werk",
+            "id": "ID",
+            "icategory": "Kategorie",
+            "idetails": "Details",
+            "idate": "Datum",
+            "iscribe": "Schreiber",
+            "isection": "Sektion",
+            "icomments": "Kommentare",
+            "smaterialsupport": "Material Support"
+        },
+        "i18n": {
+            "language": "Sprache"
+        },
+        "screen": {
+            "title": "Screenshot",
+            "text": "Klicken Sie mit der rechten Maustaste auf das Bild, um das Bild zu kopieren."
+        },
+        "delete": {
+            "title": "Entfernen",
+            "text1": "Möchten Sie das Manuskript wirklich aus dem Arbeitsbereich entfernen?",
+            "text2": "Möchten Sie wirklich alle Manuskripte aus dem Arbeitsbereich entfernen?",
+            "yes": "Ja",
+            "no": "Nein",
+            "success1": "Manuskript entfernt",
+            "success2": "Alle Manuskripte wurden entfernt"
+        },
+        "cookies": {
+            "title": "Cookies",
+            "message": "Wir verwenden Cookies, um die bestmögliche Funktionalität bieten zu können.",
+            "button": "Verstanden!"
+        },
+        "coled": {
+            "cu": "Produktionseinheiten",
+            "segment": "Inhaltselemente"
+        },
+        "help": {
+            "page": "help.en.html",
+            "wintitle": "Hilfe"
+        },
+        "view": {
+            "button": "Anzeigemodus"
+        }
+    },
+    "fr": {
+        "menu": {
+            "manu": "Manuscrits",
+            "noManu": "Pas de Manuscrits",
+            "tile": "coller des manuscrits",
+            "show": "montrer tout",
+            "close": "fermer tout",
+            "delete": "supprimer tout",
+            "cav": "Couleurs & Visibilité",
+            "all": "Changer dans toutes les fenêtres ouvertes",
+            "settings": "Paramètres montrer/cacher",
+            "help": "Informations et Aide"
+        },
+        "lang": {
+            "en": "Anglais",
+            "de": "Allemagne",
+            "fr": "Francais"
+        },
+        "mode": {
+            "easy": "Mode Simplifique",
+            "advanced": "Mode Avancé"
+        },
+        "manu": {
+            "pu": "Unités de Production",
+            "pc": "Éléments de Contenu",
+            "mai": "Manuscrit",
+            "pui": "Unité de Production",
+            "pci": "Élément de Contenu"
+        },
+        "settings": {
+            "pul": "Étiquette Unités de Production",
+            "csl": "Étiquette Éléments de Contenu",
+            "ti": "Titre",
+            "ia": "Zone d'information",
+            "display": "Affichage du segment de contenu",
+            "dispBR": "Meilleure lisibilité",
+            "dispP": "Proportionnel",
+            "dispACE": "Tout le contenu est égal"
+        },
+        "info": {
+            "mshelfmark": "Cote",
+            "mtitle": "Titre",
+            "mreference": "Référence",
+            "mscribe": "Scribe",
+            "mcomments": "Commentaire",
+            "mlink": "Lien",
+            "snumber": "Nombre",
+            "sfolio": "Folio",
+            "stitle": "Titre",
+            "sreference": "Référence",
+            "stype": "Type",
+            "sdate": "Date",
+            "sscribe": "Scribe",
+            "scomments": "Commentaires",
+            "inumber": "Nombre",
+            "ifolio": "Folio",
+            "ireference": "Référence",
+            "iwork": "Oeuvre",
+            "id": "ID",
+            "icategory": "Catégorie",
+            "idetails": "Détails",
+            "idate": "Date",
+            "iscribe": "Scribe",
+            "isection": "Section",
+            "icomments": "Commentaires",
+            "smaterialsupport": "Support Principal"
+        },
+        "i18n": {
+            "language": "Langue"
+        },
+        "screen": {
+            "title": "Capture d'écran",
+            "text": "Cliquez sur l'image avec le bouton droit de la souris pour copier l'image."
+        },
+        "delete": {
+            "title": "Supprimer",
+            "text1": "Êtes-vous sûr de vouloir supprimer le manuscrit de l'espace de travail?",
+            "text2": "Êtes-vous sûr de vouloir supprimer tous les manuscrits de l'espace de travail?",
+            "yes": "Oui",
+            "no": "No",
+            "success1": "Manuscrit supprimé",
+            "success2": "Tous les manuscrits ont été supprimés"
+        },
+        "cookies": {
+            "title": "Cookies",
+            "message": "Nous utilisons des cookies pour fournir la meilleure fonctionnalité possible.",
+            "button": "Compris!"
+        },
+        "coled": {
+            "cu": "Unités de Production",
+            "segment": "Éléments de Contenu"
+        },
+        "help": {
+            "page": "help.en.html",
+            "wintitle": "Aides"
+        },
+        "view": {
+            "button": "Mode d'affichage"
+        }
+    },
+    "meta": {
+        "menu.manu": {
+            "description": "List of Manuscripts"
+        },
+        "menu.noManu": {
+            "description": "No Manuscripts in List"
+        },
+        "menu.tile": {
+            "description": "Tile all open manuscripts"
+        },
+        "menu.show": {
+            "description": "Show all open manuscripts"
+        },
+        "menu.close": {
+            "description": "Close all open manuscripts"
+        },
+        "menu.delete": {
+            "description": "Delete all open manuscripts"
+        },
+        "menu.cav": {
+            "description": "Change Colors and Visibility"
+        },
+        "menu.changeall": {
+            "description": "Change in all open windows"
+        },
+        "lang.en": {
+            "description": "English language",
+            "preserve": true
+        },
+        "lang.de": {
+            "description": "German language",
+            "preserve": true
+        },
+        "lang.fr": {
+            "description": "French language",
+            "preserve": true
+        },
+        "mode.easy": {
+            "description": "Easy Mode"
+        },
+        "mode.advanced": {
+            "description": "Advanced Mode"
+        },
+        "manu.pu": {
+            "description": "Production units name"
+        },
+        "manu.pc": {
+            "description": "Pieces of Content name"
+        },
+        "manu.mai": {
+            "description": "Manuscript Infoarea"
+        },
+        "manu.pui": {
+            "description": "Production unit Infoarea"
+        },
+        "manu.pci": {
+            "description": "Piece of Content Infoarea"
+        },
+        "i18n.language": {
+            "description": "Text for language"
+        },
+        "screen.title": {
+            "description": "Screenshot title"
+        },
+        "screen.text": {
+            "description": "Description of making a screenshot"
+        },
+        "delete.title": {
+            "description": "Windowtitle to remove manuscripts"
+        },
+        "delete.text1": {
+            "description": "remove one manuscript"
+        },
+        "delete.text2": {
+            "description": "remove all manuscripts"
+        },
+        "delete.yes": {
+            "description": "Confirm-Button yes"
+        },
+        "delete.no": {
+            "description": "Confirm-Button no"
+        },
+        "delete.success1": {
+            "description": "Manuscript successful deleted"
+        },
+        "delete.success2": {
+            "description": "All Manuscripts successful deleted"
+        },
+        "settings.pul": {
+            "description": "Show/Hide Production Unit Labels"
+        },
+        "settings.csl": {
+            "description": "Show/Hide Content Segment labels"
+        },
+        "settings.ti": {
+            "description": "Show/Hide Title"
+        },
+        "settings.ia": {
+            "description": "Show/Hide Info Area"
+        },
+        "settings.display": {
+            "description": "Change Content Segment display"
+        },
+        "settings.dispBR": {
+            "description": "Best Readability"
+        },
+        "settings.dispP": {
+            "description": "Proportional"
+        },
+        "settings.dispACE": {
+            "description": "All Content equal"
+        },
+        "info.mshelfmark": {
+            "description": "Shelfmark"
+        },
+        "info.snumber": {
+            "description": "Section: Number"
+        },
+        "info.mtitle": {
+            "description": "Manuscript: Title"
+        },
+        "info.mcomments": {
+            "description": "Manuscript: Comments"
+        },
+        "info.mlink": {
+            "description": "Manuscript: Link"
+        },
+        "info.sfolio": {
+            "description": "Section: Folio"
+        },
+        "info.stitle": {
+            "description": "Section: Title"
+        },
+        "info.mscribe": {
+            "description": "Manuscript: Scribe"
+        },
+        "info.mreference": {
+            "description": "Manuscript: Reference"
+        },
+        "info.sreference": {
+            "description": "Section: Reference"
+        },
+        "info.stype": {
+            "description": "Section: Type"
+        },
+        "info.sdate": {
+            "description": "Section: Date"
+        },
+        "info.sscribe": {
+            "description": "Section: Scribe"
+        },
+        "info.ifolio": {
+            "description": "Item: Folio"
+        },
+        "info.inumber": {
+            "description": "Item: Number"
+        },
+        "info.ireference": {
+            "description": "Item: Reference"
+        },
+        "info.iwork": {
+            "description": "Item: Work"
+        },
+        "info.id": {
+            "description": "Item: ID"
+        },
+        "info.idetails": {
+            "description": "Item: Details"
+        },
+        "info.idate": {
+            "description": "Item: Date"
+        },
+        "info.scomments": {
+            "description": "Section: Comment"
+        },
+        "info.iscribe": {
+            "description": "Item: Scribe"
+        },
+        "info.isection": {
+            "description": "Item: Section"
+        },
+        "info.icategory": {
+            "description": "Item: Category"
+        },
+        "info.icomments": {
+            "description": "Item: Comments"
+        },
+        "menu.settings": {
+            "description": "Labels show/hide"
+        },
+        "menu.all": {
+            "description": "Change in all open windows"
+        },
+        "menu.help": {
+            "description": "Help button on main menu"
+        },
+        "help.page": {
+            "description": "Help Page link"
+        },
+        "help.windowtitle": {
+            "description": "Title for help window"
+        },
+        "cookies.title": {
+            "description": "Title for cookies message"
+        },
+        "cookies.message": {
+            "description": "Message for cookies"
+        },
+        "cookies.button": {
+            "description": "Text to use to accept the cookies message"
+        },
+        "coled.cu": {
+            "description": "C&V CU"
+        },
+        "coled.segment": {
+            "description": "C&V Pieces of Content "
+        },
+        "help.wintitle": {
+            "description": "Title for help window"
+        },
+        "view.button": {
+            "description": "Menu button for display mode"
+        },
+        "info.smaterialsupport": {
+            "description": ""
+        }
+    }
+}

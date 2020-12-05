@@ -1,0 +1,73 @@
+{
+    "en": {
+        "lang": {
+            "en": "English",
+            "de": "German",
+            "fr": "French"
+        },
+        "mode": {
+            "easy": "Easy mode"
+        },
+        "manu": {
+            "pu": "Production Units"
+        },
+        "i18n": {
+            "language": "Language"
+        }
+    },
+    "de": {
+        "lang": {
+            "en": "Englisch",
+            "de": "Deutsch",
+            "fr": "Französisch"
+        },
+        "mode": {
+            "easy": "Einfach Modus"
+        },
+        "manu": {
+            "pu": "Production Einheiten"
+        },
+        "i18n": {
+            "language": "Sprache"
+        }
+    },
+    "fr": {
+        "lang": {
+            "en": "Anglais",
+            "de": "Alemagne",
+            "fr": "Francais"
+        },
+        "mode": {
+            "easy": "Le Modus simplifique"
+        },
+        "manu": {
+            "pu": "Unités de production"
+        },
+        "i18n": {
+            "language": "Langue"
+        }
+    },
+    "meta": {
+        "lang.en": {
+            "description": "English language",
+            "preserve": true
+        },
+        "lang.de": {
+            "description": "German language",
+            "preserve": true
+        },
+        "lang.fr": {
+            "description": "French language",
+            "preserve": true
+        },
+        "mode.easy": {
+            "description": "Easy mode"
+        },
+        "manu.pu": {
+            "description": "Production units name"
+        },
+        "i18n.language": {
+            "description": "Text for language"
+        }
+    }
+}

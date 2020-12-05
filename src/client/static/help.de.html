@@ -1,0 +1,341 @@
+<html>
+
+<head>
+	<title>Information und Hilfe</title>
+	<script src="js/vue.js"></script>
+	<link href="css/staticwin.css" rel="stylesheet" />
+	<script src="js/uielements.js"></script>
+	<link href="css/theme-chalk/index.css" rel="stylesheet" />
+
+	<style>
+		p {
+			font-size: 16px;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		ul {
+			font-size: 16px;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		.buttonlist {
+			font-size: 15px;
+		}
+
+		.button {
+			color: #fff;
+			background-color: #409EFF;
+			border-color: #409EFF;
+		}
+
+		h1 {
+			font-size: 20px;
+		}
+
+		h2 {
+			font-size: 18px;
+			text-indent: 25px;
+		}
+	</style>
+
+</head>
+
+<body>
+	<div id="vueapp">
+<p style="text-align: center">Die folgenden Informationen können Sie auch als PDF lesen: <a href="pdf/help.de.pdf" download>Download (PDF)</a></p>
+		<el-collapse v-model="activeNames" @change="handleChange">
+			<el-collapse-item name="1">
+				<template slot="title">
+					<h1>Was ist StruViMan?</h1>
+				</template>
+				<div class="panel-body">
+					<p>Eine wachsende Zahl von Handschriften ist digital online verfügbar. Dies bietet den Wissenschaftlern neue Möglichkeiten, sich mit Manuskripten und deren Inhalten auseinanderzusetzen. Da es sich bei alten Kodizes um komplexe Objekte handelt und ihr aktueller Zustand oft das Ergebnis mehrerer Produktionsschichten ist, ist es sinnvoll, ihre Komponente über Bild und Text hinaus zu untersuchen. Unterschiede in Produktionseinheiten, Beschreibstoffen, Lagen und Schreibern (um nur einige Elemente zu nennen) können alle einen Einblick in die Entwicklung des Kodex als ein Objekt, das sich im Laufe der Zeit verändert, geben.</p>
+
+					<p>Die Strukturvisualisierung von Manuskripten (StruViMan) ist ein Webservice, der als praktische Erweiterung des Projekts der <a href="https://www.ptb.gwi.uni-muenchen.de/" target="_blank">Paratexte der griechischen Bibel</a>, eines ERC-Projekts an der LMU München, entwickelt wurde. Unter Verwendung hauptsächlich digitaler Reproduktionen (wie sie z.B. über <a href="http://ntvmr.uni-muenster.de/" target="_blank">NTVMR</a> der Universität Μünster erhältlich sind) überprüft das Team jedes neutestamentliche Manuskript sorgfältig und das Vorhandensein von biblischen Texten und Paratexten wird in einer Datenbank dokumentiert.</p>
+
+					<p>StruViMan transformiert diese Manuskriptdaten in eine visuelle Darstellung, die die Struktur eines Manuskripts auf einen Blick sichtbar macht. Die Visualisierung liefert Informationen sowohl zur chronologischen Entwicklung des Kodex (hier in Form der verschiedenen Produktionseinheiten) als auch zu den strukturellen Aspekten seines Inhalts (in diesem Modell sind die Inhaltselemente nach Kategorien geordnet). Weitere Informationen sind durch Anklicken der entsprechenden Teile der Visualisierung leicht zugänglich.</p>
+					
+					<p>Die Visualisierung ist momentan über drei Varianten erreichbar:
+						<ul>
+							<li>Auf der Ergebnisseite einer Handschrift auf der Webseite <a href="https://www.ptb.gwi.uni-muenchen.de/" target="_blank">Paratexte der griechischen Bibel</a> unter dem Punkt <b>Visualization of this manuscript</b>.</li>
+							<li>Auf der Ergebnisseite einer Handschrift auf der Webseite <a href="https://pinakes-dev.irht.cnrs.fr/" target="_blank">Pinakes </a>links oben unter dem Punkt <b>Visualiseur</b>.</li>
+							<li>Direkt hier auf der <a href="https://www.struviman-test.gwi.uni-muenchen.de/" target="_blank">StruViMan-Webseite</a> rechts oben auf die kleine Grafik klicken. Dort sind ein paar ausgewählte Handschriften zu finden.</li>
+						<ul>
+					</p>
+				</div>
+			</el-collapse-item>
+
+			<el-collapse-item name="2">
+				<template slot="title">
+					<h1>Technisches Konzept</h1>
+				</template>
+				<div class="panel-body">
+					<p>Der Webservice StruViMan ist einerseits mit dem <a href="https://pinakes.irht.cnrs.fr/" target="_blank">Pinakes-Projekt</a> verbunden und andererseits mit dem <a href="https://www.ptb.gwi.uni-muenchen.de/" target="_blank">PtB-Projekt</a>. Beide Projekte benutzen die gleiche Datenbank, zeigen aber zum Teil unterschiedliche Aspekte einer Handschrift an.</p>
+					
+					<p>Das <a href="https://www.ptb.gwi.uni-muenchen.de/" target="_blank">PtB-Projekt</a> befindet sich momentan im Aufbau. Nach Eingabe einer Diktyon-Nummer werden ausgewählte Details zu der jeweiligen Handschrift angezeigt (<a href="https://www.ptb.gwi.uni-muenchen.de/de/manuscript/?cote=55612" target="_blank">Beispiel</a>). Dort findet sich der Link zur Visualisierung der Handschrift:</p>
+					
+					<p style="text-align:center"><img src="images/help/visualization.png" alt="PtB Link"></p>
+					
+					<p>Auf der <a href="https://pinakes.irht.cnrs.fr/" target="_blank">Pinakes-Webseite</a> haben Benutzer ebenfalls die Möglichkeit, sich detaillierte Daten von Handschriften anzeigen zu lassen. Auf der Ergebnisseite eines Manuskriptes (<a href="http://pinakes-dev.irht.cnrs.fr/notices/cote/55612/" target="_blank">Beispiel</a>) finden sich rechts oben mehrere Optionen:</p>
+					
+					<p style="text-align:center"><img src="images/help/pinakes.png" alt="Pinakes Link"></p>
+
+					<p>Bei Klick auf die Option „Visualiseur“ werden Benutzer im gleichen Browserfenster in einem neuen Tab auf den StruViMan-Webservice weitergeleitet, analog dazu auch beim PtB-Projekt. Die beiden Tabs sind mit einer SessionID verknüpft. Weitere Manuskripte werden somit auch im aktuell geöffneten StruViMan-Tab dargestellt. Sind mehrere StruViMan-Tabs bzw. -fenster geöffnet, zeigen alle dasselbe an (spätestens nach einem Refresh).</p>
+
+					<p>Die Umsetzung von StruViMan erfolgte nach aktuellen Standards der Webprogrammierung: Vue.js, einem JavaScript-Webframework, HTML5 und CSS3. Die Visualisierung von StruViMan ist eine Vektorgrafik (SVG).</p>
+
+					<p>Die Daten aus der Datenbank werden mittels PHP und einem XML-Schema (XSD) in eine XML-Datei gespeichert und per JSON an unseren Server gesendet (Serverplattform: Node.js).</p>
+
+					<p>Die serverseitige Komponente ist notwendig, da StruViMan nicht auf dem gleichen Server wie die Datenbank von <a href="https://pinakes.irht.cnrs.fr/" target="_blank">Pinakes</a> und <a href="https://www.ptb.gwi.uni-muenchen.de/" target="_blank">PtB</a> gehostet wird und es daher für den StruViMan-Server einfacher ist, die XML-Daten von der Datenbank zu sammeln und zu analysieren, bevor sie an den Browser weitergeleitet werden. Dadurch kann es auch leicht erweitert werden, um in der Zukunft mit anderen Systemen/Servern zu interagieren und die Visualisierungsfunktion bereitzustellen. Bei Interesse schreiben Sie gerne einen der Kontakte an (siehe rechts unten).</p>
+
+					<p>In der Zukunft ist auch geplant, die Software öffentlich als Open Source zugänglich zu machen.</p>
+				</div>
+			</el-collapse-item>
+
+				<el-collapse-item name="3">
+					<template slot="title">
+						<h1>Design</h1>
+					</template>
+
+					<div class="panel-body">
+						<p>Die Visualisierung stellt die Ansicht von dem Fußschnitt eines Buches dar.</p>
+
+						<p><img src="images/help/design-concept-de.png" alt="Design Concept"></p>
+
+						<p><b>Produktionseinheiten:</b> Der Rücken des Buches besteht aus einem Balken, der in diesem Beispiel in zwei verschiedenfarbige Abschnitte unterteilt ist. Er zeigt, wie viele Produktionseinheiten im Manuskript vorhanden sind und an welcher Stelle im Manuskript sie vorkommen.</p>
+
+						<p><b>Inhaltselemente:</b> Die Seiten des Buches geben nicht nur einen Überblick über die Inhalte im Codex, sondern zeigen auch, wie viel Platz jedes Element einnimmt. Es lässt sich leicht erkennen, welche Abschnitte des Buches zur gleichen Produktionseinheit gehören.</p>
+
+						<p>Durch die <b>Farbgebung</b> der Produktionseinheiten können diese gut unterschieden werden. Bei den Inhaltselementen werden den gleichen Kategorien auch die gleiche Farbe zugewiesen (Beispiel: Imagines -> schwarz). Produktionseinheiten und Inhaltselemente haben nie dieselbe Farbe. Alle Farben lassen sich im fortgeschrittenen Modus individuell anpassen.
+						</p>
+					</div>
+				</el-collapse-item>
+				
+				<el-collapse-item name="4">
+					<template slot="title">
+						<h1>Hauptfenster</h1>
+					</template>
+					<div class="panel-body">
+						<p>Es gibt zwei verschiedene Arbeitsbereiche, die jeweils eine bestimmte Anzahl von Optionen anbieten:</p>
+
+						<p><img src="images/help/mw-easy-de.png" alt="Easy Workspace"></p>
+
+						<p>Im <b>einfachen Arbeitsbereich</b> kann der Benutzer keine Einstellungen vornehmen und er eignet sich besonders für neue oder gelegentliche Benutzer. Dieser Modus ist aktiv, wenn der Schalter in der rechten oberen Ecke des Hauptfensters auf „einfach“ steht und der Rahmen eine hellgraue Farbe annimmt.</p>
+						
+						<p><img src="images/help/mw-adv-de.png" alt="Advanced Workspace"></p>
+
+						<p>Im <b>fortgeschrittenen Arbeitsbereich</b> gibt es mehrere Optionen für die Anpassung der Grafik. Er ist aktiv, wenn der Schalter auf „fortgeschritten“ steht und der Rahmen eine dunkelgraue Farbe annimmt.</p>
+					</div>
+				</el-collapse-item>
+
+					<!-- Untermenü -->
+				<el-collapse-item name="5">
+					<template slot="title">
+						<h2>Optionen im einfachen Arbeitsbereich</h2>
+					</template>
+					<div class="panel-body">
+						<p><img src="images/help/mslist-de.png" alt="Manuscript list"></p>
+						<p>Alle Manuskripte, die in einer bestimmten Sitzung vorhanden sind, werden unter
+							<b>Manuskripte</b> am linken oberen Rand aufgelistet. Ein einfacher Klick auf einen Titel öffnet einen darunterliegenden Tab mit grundlegenden Informationen zum Manuskript und fokussiert die entsprechende Visualisierung. Ein Doppelklick auf den Titel öffnet ein Fenster wieder, wenn es vorher geschlossen worden ist. Zusätzlich kann auch das Symbol <i class="el-icon-view"></i> angeklickt werden, um die Visualisierung eines Manuskripts zu öffnen.</p>
+					
+						<p><b>Manuskripte können auf unterschiedliche Art aus der Liste entfernt werden:</b>
+							<ul>
+								<li>Entfernung einzelner Handschriften durch Anklicken des Papierkorbsymbols <i class="el-icon-delete"></i> links neben dem Titel.</li>
+								<li>Durch Markierung einer oder mehrerer Checkboxen links neben dem Titel und Anklicken des Papierkorbsymbols in der untersten Zeile können mehrere Handschriften gleichzeitig entfernt werden.</li>
+								<li>In der untersten Zeile können per Checkbox und Klick auf das Papierkorbsymbol alle vorhandenen Handschriften aus der Liste entfernt werden.</li>
+							</ul>
+						</p>
+
+						<p>Die folgenden <b>Menüoptionen</b> erscheinen, wenn mehr als ein Manuskript in die Liste geladen wird (mit Ausnahme des Hilfebuttons, der immer vorhanden ist):</p>
+					
+						<p class="buttonlist">
+							<el-button icon="el-icon-question" class="button"></el-button> <b>Information & Hilfe:</b> öffnet dieses Fenster.
+						</p>
+					
+						<p class="buttonlist">
+							<el-button icon="el-icon-menu" class="button"></el-button> <b>Manuskripte anordnen:</b> ordnet alle offenen Manuskripte auf dem Bildschirm übersichtlich und in einer bestimmten Reihenfolge an (siehe untenstehende vereinfachte Grafik).
+						<p><img src="images/help/tile-de.png" alt="Tile"></p></p>
+					
+						<p class="buttonlist">
+							<el-button icon="el-icon-circle-plus" class="button"></el-button> <b>Alle anzeigen:</b> öffnet alle Manuskripte aus der Liste.
+						</p>
+					
+						<p class="buttonlist">
+							<el-button icon="el-icon-remove" class="button"></el-button> <b>Alle schließen:</b> schließt alle offenen Manuskripte auf dem Bildschirm, aber sie bleiben auf der Liste.
+						</p>
+					
+						<p class="buttonlist">
+							<el-button icon="el-icon-delete" class="button"></el-button> <b>Alle entfernen:</b> entfernt alle Manuskripte aus der Liste.
+						</p>
+					
+					</div>
+				</el-collapse-item>
+
+				<!-- Untermenü -->
+				<el-collapse-item name="6">
+					<template slot="title">
+						<h2>Optionen im fortgeschrittenen Arbeitsbereich</h2>
+					</template>
+				<div class="panel-body">
+				<p>
+					Zusätzlich zu allen Optionen des einfachen Bereichs sind hier mehrere Einstellungen möglich, die die Anzeige der Visualisierung verändern. Es gibt diese Optionen, bis auf die erste, auch auf Manuskriptfensterebene, dort können sie individuell für einzelne Handschriften eingestellt werden.
+				</p>
+						<p><el-button icon="el-icon-setting" class="button"><i class="el-icon-arrow-down"></i></el-button>
+						<b>Einstellungen:</b> öffnet das Menü Einstellungen:
+						</p>
+							<p><img src="images/help/settings-de.png" alt="Settings">
+							</p>
+						
+							<p>
+								<ul>
+									<li><b>In allen geöffneten Fenstern ändern:</b> Wenn Änderungen im Einstellungsmenü vorgenommen werden, bestimmt dieser Schalter, ob diese Änderungen sowohl auf alle geöffneten Manuskripte als auch auf alle später geöffneten Manuskripte angewendet werden sollen (dann schalten Sie den Schalter ein) ODER nur auf alle Manuskripte, die später geöffnet werden.</li>
+						
+									<li>Die vier darunterliegenden Schalter ermöglichen es dem Benutzer, verschiedene Textbereiche und Beschreibungen innerhalb der Visualisierung ein- oder auszublenden:
+										<ul>
+											<li><b>Beschriftung Produktionseinheiten:</b> Nummer und Datum jeder
+												Produktionseinheit.</li>
+											<li><b>Beschriftung Inhaltselemente:</b> Die Labels, die den Inhalt
+												identifizieren.</li>
+											<li><b>Titel:</b> Die Signatur der Handschrift und ihre Betitelung, wie sie in den Projekten Pinakes und PtB erscheint.</li>
+											<li><b>Informationsbereich:</b> Der Textbereich unter der Visualisierung, der sich ändert, je nachdem auf welches Element der Benutzer in der Grafik klickt.</li>
+										</ul>
+									</li>
+						
+									<li><b>Anzeige der Inhaltselemente:</b> Hier kann der Benutzer bestimmen, wie die Inhaltssegmente angezeigt werden sollen:
+										<ul>
+											<li><b>Beste Lesbarkeit:</b> Logarithmische Anpassung der Segmentgröße, (gemäß der Formel ln(a+1) werden kleine Segmente vergrößert und große Segmente verkleinert). Parallele Inhalte werden als solche dargestellt.</li>
+											<li><b>Proportional:</b> Die Anzahl der Folios/Seiten eines Inhaltselementes bestimmt die Größe des Segmentes. Parallele Inhalte werden als solche dargestellt.
+											</li>
+											<li><b>Alle Inhalte gleich:</b> Alle Segmente werden in der gleichen Größe angezeigt. Parallele Inhaltselemente werden nicht als solche angezeigt, sondern alle Elemente werden seriell nacheinander angezeigt.</li>
+										</ul>
+									</li>
+								</ul>
+							</p>
+						
+							<p>Alle Änderungen sind sofort sichtbar und können übernommen (<b>OK</b>) oder verworfen (<b>Cancel</b>) werden. <b>Reset</b> setzt alle Einstellungen auf ihren Ausgangszustand zurück.</p>
+				</div>
+				</el-collapse-item>
+
+			<el-collapse-item name="7">
+				<template slot="title">
+					<h1>Manuskriptfenster</h1>
+				</template>
+				<div class="panel-body">
+				<p>Es können beliebig viele Manuskriptfenster geöffnet werden. So können beispielsweise ähnliche Handschriften einfach miteinander verglichen werden. Der Benutzer hat hier unabhängig vom Hauptfenster die Möglichkeit in zwei unterschiedlichen Modi zu arbeiten (Das blau Hinterlegte ist der aktive Modus.):</p>
+
+				<p><img src="images/help/easy-mode-de.png" alt="Easy Mode">&nbsp;&nbsp;<img src="images/help/advanced-mode-de.png" alt="Advanced Mode"></p>
+
+						<p><b>Warum gibt es zwei verschiedene Modi?</b><br>
+							StruViMan ist so konzipiert, dass es sowohl intuitiv als auch für Anfänger einfach zu bedienen ist. Darüber hinaus kann der einfache Modus einen schnellen und einfachen Zugriff auf die Visualisierungen verschiedener Manuskripte
+							ermöglichen, ohne dass der Benutzer irgendwelche Einstellungen ändern muss.<br>
+						</p>
+						
+						<p>Für Benutzer, die mehr Kontrolle über einzelne Aspekte ihrer Manuskriptvisualisierungen haben wollen, bietet der fortgeschrittene Modus eine erweiterte Anzahl von Optionen und ein höheres Maß an Anpassungsfähigkeit in der Anzeige.
+						</p>
+
+			</div>
+
+</el-collapse-item>
+				<!-- Untermenü -->
+				<el-collapse-item name="8">
+					<template slot="title">
+						<h2>Optionen im einfachen Modus</h2>
+					</template>
+					<div class="panel-body">
+						<p><b>Grundlegende Informationen:</b>
+							<p>Das Fenster hat im einfachen Modus eine feste Größe, die Fenstergröße ist somit nicht veränderbar. Auch Manuskripte mit sehr vielen Inhaltselementen werden anfangs in der Standardgröße dargestellt. Diese können aber vergrößert werden per Klick auf "<span style="color:red">+++</span>" (unter dem letzten angezeigten Inhaltselement).</p>
+					
+							<p>Fährt der Benutzer über ein Inhaltselement in der Grafik, so werden die zugehörigen Informationen in einem Popup angezeigt. Bei Klick auf ein Element in der Grafik werden im unteren Informationsbereich die zugehörigen Informationen aus der Datenbank angezeigt. Bei Klick auf eine beliebige weiße Fläche im Fenster werden einige Metainformationen zur Handschrift im Informationsbereich angezeigt.</p>
+							<p>Jedes Zurückschalten auf diesen Modus ist ein Reset für die Grafik. Die Einstellungen des fortgeschrittenen Modus werden dann wieder auf die Grundeinstellungen zurückgesetzt.</p>
+							
+							<p>Die Größe der Inhaltssegmente wird im einfachen Modus immer in der Variante <b>Beste Lesbarkeit</b> angezeigt. Das bedeutet, die Größe der Segmente werden logarithmisch angepasst.</p>
+						</p>
+					
+						<p><b>Beschreibung der einzelnen Funktionen:</b></p>
+						<p class="buttonlist">
+							<el-button icon="el-icon-picture" class="button"></el-button> <b>Screenshot:</b>
+						</p>
+						<p>Mit einem Klick auf diese Schaltfläche öffnet sich ein neues Fenster, in dem der Benutzer mit der rechten Maustaste klicken und das Bild lokal auf seinem Computer speichern kann.<br>
+							Dieses Fenster kann durch Anklicken des hellgrauen "x" in der rechten oberen Ecke geschlossen werden.
+						</p>
+					
+						<p class="buttonlist">
+							<el-button icon="el-icon-setting" class="button"></el-button> <b>Labels anzeigen/ausblenden:</b>
+						</p>
+						<p>Anzeigen oder ausblenden der <b>Beschriftung der Produktionseinheiten</b> und der <b>Beschriftung der Inhaltselemente</b>.
+						</p>
+					
+					</div>			
+			
+				</el-collapse-item>
+			
+				<!-- Untermenü -->
+				<el-collapse-item name="9">
+					<template slot="title">
+						<h2>Optionen im fortgeschrittenen Modus</h2>
+					</template>
+					<div class="panel-body">
+						<p><b>Grundlegende Informationen:</b>
+							<p>Alle Einstellungen, die im fortgeschrittenen Modus gemacht werden, bleiben erhalten, auch wenn die Handschrift geschlossen (aber nicht aus der Liste entfernt) wird. Die gleiche Handschrift kann auch mehrfach geöffnet werden und es können in jeder geöffneten Instanz unterschiedliche Einstellungen vorgenommen werden. Jedes Zurückschalten auf den einfachen Modus ist ein Reset für die Grafik. Die Einstellungen des fortgeschrittenen Modus werden dann wieder auf die Grundeinstellungen zurückgesetzt.</p>
+						
+							<p>Die Fenstergröße kann im fortgeschrittenen Modus in alle Richtungen verändert werden. Somit kann zum Beispiel ganz leicht die Größe angepasst werden, sollte einmal nicht der gesamte Text eines Labels zu sehen sein; (indem man das Fenster nach rechts vergrößert). Die Größe des Informationsbereichs passt sich automatisch der Textmenge an.</p>
+						</p>
+						
+						<p><b>Beschreibung der einzelnen Funktionen:</b></p>
+						<p><img src="images/help/display-mode-de.png" alt="Display Mode"></p>
+						<p>Die erste Funktion links ermöglicht es dem Benutzer zu bestimmen, wie die Inhaltssegmente angezeigt werden. Diese Option gibt es auch auf Hauptfensterebene.
+							<ul>
+								<li><b>Beste Lesbarkeit:</b> Logarithmische Anpassung der Segmentgröße, (gemäß der Formel ln(a+1) werden kleine Segmente vergrößert und große Segmente verkleinert). Parallele Inhalte werden als solche dargestellt.
+								</li>
+								<li><b>Proportional:</b> Die Anzahl der Folios/Seiten eines Inhaltselementes bestimmt die Größe des Segmentes. Parallele Inhalte werden als solche dargestellt.</li>
+								<li><b>Alle Inhalte gleich:</b> Alle Segmente werden in der gleichen Größe angezeigt. Parallele Inhaltselemente werden nicht als solche angezeigt, sondern alle Elemente werden seriell nacheinander angezeigt.
+								</li>
+							</ul>
+						</p>
+						
+						<p class="buttonlist">
+							<el-button icon="el-icon-picture" class="button"></el-button> <b>Screenshot:</b>
+						</p>
+						<p>Mit einem Klick auf diese Schaltfläche öffnet sich ein neues Fenster, in dem der Benutzer mit der rechten Maustaste klicken und das Bild lokal auf seinem Computer speichern kann.<br>
+							Dieses Fenster kann durch Anklicken des hellgrauen "x" in der rechten oberen Ecke
+							geschlossen werden.
+						</p>
+						
+						<p class="buttonlist">
+							<el-button icon="el-icon-setting" class="button"><i class="el-icon-arrow-down"></i></el-button> <b>Labels anzeigen/ausblenden:</b>
+						</p>
+						<img src="images/help/showhidelabels-de.png" alt="show/hide Labels">
+						<p>Die vier darunterliegenden Schalter ermöglichen es dem Benutzer, verschiedene Textbereiche und Beschreibungen innerhalb der Visualisierung ein- oder auszublenden:
+							<ul>
+								<li><b>Beschriftung der Produktionseinheiten:</b> Nummer und Datum jeder
+									Produktionseinheit.</li>
+								<li><b>Beschriftung der Inhaltselemente:</b> Die Labels, die den Inhalt identifizieren.
+								</li>
+								<li><b>Titel:</b> Die Signatur der Handschrift und ihre Betitelung, wie sie in <a
+										href="https://pinakes.irht.cnrs.fr/" target="_blank">Pinakes</a> erscheint.</li>
+								<li><b>Informationsbereich:</b> Der Textbereich unter der Visualisierung, der sich ändert, je nachdem auf welches Element der Benutzer in der Grafik klickt.</li>
+							</ul>
+							<p>Alle Änderungen sind sofort sichtbar und können übernommen (<b>OK</b>) oder verworfen (<b>Cancel</b>) werden. <b>Reset</b> setzt alle Einstellungen auf ihren Ausgangszustand zurück.</p>
+						</p>
+						
+						<p class="buttonlist">
+							<el-button icon="el-icon-edit" class="button"><i class="el-icon-arrow-down"></i></el-button> <b>Farben & Sichtbarkeit:</b>
+						</p>
+						<img src="images/help/colors-visibility-de.png" alt="change colors and visibility">
+						
+						<p><b>Option 1:</b> Hier kann man die Farbe der Produktionseinheiten (in diesem Beispiel „1.A“) sowie jeder Kategorie (in diesem Beispiel „Testamentum nouum“) ändern, die in diesem Manuskript vorkommen. So kann der Benutzer ein eigenes Farbkonzept anwenden.</p>
+						
+						<p><b>Option 2:</b> Jede Produktionseinheit sowie jede Kategorie lassen sich einzeln ausblenden. Ein Element muss jeweils vorhanden bleiben. Der vorhandene Platz wird dann dynamisch von den noch übrig gebliebenen Elementen ausgefüllt. Benutzer können so beispielsweise momentan nicht benötigte Kategorien ausblenden oder sich nur eine Produktionseinheit ansehen.</p>
+						
+						<p>Alle Änderungen sind sofort sichtbar und können übernommen (<b>OK</b>) oder verworfen (<b>Cancel</b>) werden. <b>Reset</b> setzt alle Einstellungen auf ihren Ausgangszustand zurück.</p>
+						
+						</div>
+				</el-collapse-item>
+				
+		</el-collapse>
+	</div>
+
+<script src="js/staticwin2.js"></script>
+</body>
+
+</html>

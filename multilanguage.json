@@ -1,0 +1,79 @@
+{
+    "en": {
+        "lang": {
+            "en": "English",
+            "de": "German",
+            "fr": "French"
+        },
+        "mode": {
+            "easy": "Easy mode"
+        },
+        "manu": {
+            "pu": "Production Units",
+            "pc": "Pieces of Content"
+        },
+        "i18n": {
+            "language": "Language"
+        }
+    },
+    "de": {
+        "lang": {
+            "en": "Englisch",
+            "de": "Deutsch",
+            "fr": "Französisch"
+        },
+        "mode": {
+            "easy": "Einfacher Modus"
+        },
+        "manu": {
+            "pu": "Produktionseinheiten",
+            "pc": "Inhaltselemente"
+        },
+        "i18n": {
+            "language": "Sprache"
+        }
+    },
+    "fr": {
+        "lang": {
+            "en": "Anglais",
+            "de": "Allemagne",
+            "fr": "Francais"
+        },
+        "mode": {
+            "easy": "Le Mode Simplifique"
+        },
+        "manu": {
+            "pu": "Unités de Production",
+            "pc": "Éléments de Contenu"
+        },
+        "i18n": {
+            "language": "Langue"
+        }
+    },
+    "meta": {
+        "lang.en": {
+            "description": "English language",
+            "preserve": true
+        },
+        "lang.de": {
+            "description": "German language",
+            "preserve": true
+        },
+        "lang.fr": {
+            "description": "French language",
+            "preserve": true
+        },
+        "mode.easy": {
+            "description": "Easy mode"
+        },
+        "manu.pu": {
+            "description": "Production units name"
+        },
+        "manu.pc": {
+            "description": "Pieces of Content name"
+        },
+        "i18n.language": {
+            "description": "Text for language"
+        }
+    }
+}

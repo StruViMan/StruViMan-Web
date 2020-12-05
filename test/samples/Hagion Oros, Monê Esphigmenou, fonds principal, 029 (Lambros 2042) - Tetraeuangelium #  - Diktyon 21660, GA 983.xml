@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<p:sammlung xmlns:p="urn:Test.Namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:Test.Namespace manuscript-v06.xsd ">
+    <p:manuskriptType>
+        <p:meta>
+            <p:manuSignatur>Hagion Oros, Monê Esphigmenou, fonds principal, 029 (Lambros 2042)</p:manuSignatur>
+            <p:manuTitel>Tetraeuangelium</p:manuTitel>
+            <p:manuReferenz>21660, GA 983</p:manuReferenz>
+            <p:manuKopist></p:manuKopist>
+            <p:manuKommentar></p:manuKommentar>
+            <p:manuDatum></p:manuDatum>
+            <p:manuLink>https://pinakes.irht.cnrs.fr/notices/cote/21660/</p:manuLink>
+        </p:meta>
+        <p:cu>
+            <p:cuMeta>
+                <p:cuNummer>1.A</p:cuNummer>
+                <p:cuFolio>f. 1-208</p:cuFolio>
+                <p:cuTitel>Tetraeuangelium</p:cuTitel>
+                <p:cuReferenz>GA 983</p:cuReferenz>
+                <p:cuTyp>Unité principale (primaire)</p:cuTyp>
+                <p:cuDatum>12</p:cuDatum>
+                <p:cuKopist></p:cuKopist>
+                <p:cuKommentar>Ff. 1r et 208v paene leguntur; desunt unum uel duo folia post f. 1v et f. 56v. Quoad tempus scribae cf. Lafleur 2013, 123-127. Reproductio apud VMR est integra. </p:cuKommentar>
+            </p:cuMeta>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 1r a quart. 1 inc.-1v b quart. 2</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Leo Sapiens VI,  Notitiae episcopatuum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Excerpta uaria in codicibus biblicis inuenta</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent, ] ἐπίγνωσις τῶν [...]κῶν θρόνων / Incipit,  / Desinit, ἀνατολικοῦ ἀνέμου, ἔνθα ἥλιος ἀνατέλλει, ἔχει μητροπολίτας ιβ΄.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>Breuis descriptio finium sanctissimorum patriarcharum; quoad ordinem materiae differt ab editis in PG 107, 351-356; est forma textus edita ab Harris, The Origin of Leicester Codex, London, 1887, p. 64-65, necnon ab A. Delatte Anecdota Atheniensia I, 322-323 (cf. Venezia, Biblioteca Nazionale Marciana, gr. Z., 539 (coll. 0303), f. 274-275)</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 1rv</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Notitiae episcopatuum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Ius canonicum</p:inhaltKategorie>
+                <p:inhaltDetails>Incipit, Πρῶτος θρόνος καὶ πρώτη πατριαρχία Ἱεροσολύμων</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>Ordo thronorum</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 1v b quart. 3-1v b quart. 4 des.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>De nouem gradibus ecclesiasticae hierarchiae</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Ius canonicum</p:inhaltKategorie>
+                <p:inhaltDetails>Incipit, Χρὴ γινώσκειν ὅτι ἡ ἐκκλησιαστικὴ ἱεραρχία τῆς ...ου(οὐρανίου) ἱεραρχίας ἐστιν ἐφάμιλλος  / Desinit, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>Des. paene legitur</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 2r a-56v a quart. 2</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Matthaeum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent,  / Titulus finalis, présent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>Titulus finalis Euangelii accedit post subscriptionem (cf. infra)</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 56v a quart. 2 - quart. 4 med.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Matth.: von Soden pp. 297-298 [40]-[58]</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Subscriptiones librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Textus, Ἐγράφη ἑβραϊστὶ εἰς Παλαιστίνην· μετὰ η΄ ἔτη τῆς ἀναλήψεως τοῦ κυρίου· ἔχει δὲ ῥήματα ͵βφκβ΄, ἔχει στίχους [͵β?]φξ΄(͵βφξ΄) / Stichometria et alia numerica, présent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>Textum subscriptionis decoratio circumcludit; post subscriptionem accedit titulus finalis Euangelii</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 56v b quart. 1 inc.-56v quart. 4 des.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Marc.: capitula</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Capitula librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent,  / Desinit abruptus, ιθ΄ περὶ τῆς Φοινικίσσης</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>Videntur unum uel duo folia post f. 56v deesse, cum textus abrupte desinit</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 57r a-91r a quart. 3</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Marcum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent,  / Titulus finalis, présent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 91r a quart. 4 med.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Marc.: von Soden, pp. 297-298 [40-58]</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Subscriptiones librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Textus, Ἐγράφη ρωμαϊστὶ ἐν Ρώμη μετὰ ἔτη ιβ΄ τῆς ἀνὰλήψεως τοῦ κυρίου· ἔχει δὲ ρήματα ͵αχρε΄, ἔχει δὲ καὶ στίχους ͵αχιε΄ / Stichometria et alia numerica, présent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 91r b quart. 1 inc.-92r b quart. 1 med.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Luc.: capitula</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Capitula librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent,  / Desinit, πγʹ περὶ Κλεόπα / Titulus finalis, présent, Τοῦ κατὰ Λουκᾶν εὐαγγελίου τὰ κεφάλαια, πγ΄.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 92r b quart. 1 med. - quart. 3</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Notitia de dispositione lectionum Euangeliorum per annum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Liturgica</p:inhaltKategorie>
+                <p:inhaltDetails>Textus, Χρὴ γινώσκειν ὅτι ἀπὸ τοῦ πάσχα μέχρι τῆς πεντηκοστῆς, λέγει ὁ Ἰωάννης· ἀπὸ δὲ τῆς ν΄ ἕως σεπτεμβρίω κγ΄, λέγει ὁ Ματθαῖος· ἀπὸ δὲ τοῦ νέου ἔτους ἕως τῆς ἀποκρέου, λέγει ὁ Λουκᾶς· τῆ δὲ τεσσαρακοστῆ, λέγει ὁ Μάρκος.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>
+</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 92v quart. 1 inc.-92v quart. 4 des.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Imago picta</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Imagines</p:inhaltKategorie>
+                <p:inhaltDetails>Detail(s), Notula de Luca ap. in imagine bouis depingendo (excerptum est, cf. infra, f. 199v) / (Vis. contenu) portrait, présent,  / (Vis. position) pleine page, présent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>Imago Lucae ap. cum notula de symbolo bouis (excerptum, cf. infra, f. 199v)</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 93r a-152r a quart. 2</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Lucam</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent,  / Titulus finalis, présent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 152r a quart. 3</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Luc.: von Soden pp. 297-298 [40] - [58]</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Subscriptiones librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Textus, ἐγράφη ἑλληνιστὶ εἰς Ἀλεξάνδρειαν τὴν μεγάλην· μετὰ ιε´ ἔτη τῆς ἀναλήψεως τοῦ κυρίου· ἔχει δὲ ρήματα ͵γωγ΄· ἔχει δὲ στίχους ͵βψν΄ / Stichometria et alia numerica, présent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 152r a quart. 4 med.-152r b quart. 4 med.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Ioh.: capitula</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Capitula librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent,  / Desinit, s.n. περὶ τῆς αἰτήσεως τοῦ κυριακοῦ σώματος / Titulus finalis, présent, Τοῦ κατὰ Ἰωάννην εὐαγγελίου τὰ κεφάλαια, ιη΄. / Doxologia uel Inuocatio, présent, Χριστὲ παράσχοι τοῖς ἐμοῖς πόνοις χάριν.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 152v quart. 1 inc. - quart. 4 des.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Imago picta</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Imagines</p:inhaltKategorie>
+                <p:inhaltDetails>Detail(s),  / (Vis. contenu) portrait, présent,  / (Vis. position) pleine page, présent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>Imago Iohannis ap. cum notula de symbolo aquilae (excerptum, cf. infra, f. 199v)</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 153r a-181v b quart. 3</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Iohannem</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent,  / Titulus finalis, absent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 181v b quart. 4 med.-193v b quart. 2</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Synaxarium breue</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Liturgica</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>Cf. descriptionem copiosiorem partium synaxarii apud Lafleur, p. 124. </p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 181v b quart. 4 med.-199v a quart. 2</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Tabulae liturgicae</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Liturgica</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent,  / Titulus finalis, présent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>Cf. descriptionem copiosiorem apud Lafleur, p. 124. </p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 193v b quart. 3-199r b quart. 1 med.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Menologium breue</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Liturgica</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 199r b quart. 1 med.-199v a quart. 2</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Lectiones pro festis diuersis</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Liturgica</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 199v a quart. 2-199v b quart. 3</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Irenaeus Lugdunensis ep.,  In Euang.: excerptum ex Irenaeo de quattuor euangeliis &quot;Ιστέον ὅτι τὰ τετράμορφα... ἄρξασθαι&quot;</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Prologi Librorum Biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent, διάλυσις σὺν Θεῷ. / Incipit, Ιστέον ὅτι τὰ τετράμορφα ζῶα ἓν ἕκαστον αὐτοῦ· τέσσαρα πρόσωπα φέρει / Desinit, Ἰωάννου δὲ τῶ ἀετῶ δια τὸ ὑψηλὸν καὶ ἀπο θεότητος ἄρξασθαι.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>De symbolis euangelistarum. Pagina in imo uacua.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 200r a quart. 4 med. -205r a quart. 3</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Collectio 38 quaestionum et responsionum in euangelia</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Exegetica</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent, ἀπὸ τοῦ σεπτοῦ εύαγγελίου. / Incipit cuiusdam partis, Τί εστιν κάλαμον συντετριμμένον οὐ κατεάξει, καὶ λῖνον τυφόμενον οὐ σβέσει; / Incipit cuiusdam partis, Τίς ὁ κριτὴς ὁ ἔν τινι πόλει καὶ τίς ἡ χῆρα ἡ προσερχομένη αὐτῶ ἐκδικηθῆναι ἐκ τοῦ ἀντιδίκου αὐτῆς;</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>Sunt partim excerpta e MAXIMO CONFESSORE, Quaestiones 23, 6, 12, 14, 50 (PG 90, 801 D7 -804 A12; 789 B; 793 B -796 A; 796 C -797 A12; 824 D -825 A4); ISIDORE PELVSIOTA, Epistulae I, 123, I, 131, I, 132, I, 153, I, 201, I, 210, I, 210, I, 211, I, 222, I, 356, III, 125 (PG 78, 196 C-197 A; PG 78, 264 D; PG 78, 269 B; PG 78 269 C; PG 78, 285 B; PG 78, 312 B; PG 78, 316 A-B; PG 78, 316 B-C; PG 78, 316 C; PG 78, 316 C-D; PG 78, 321 C; PG 78, 385 B; PG 78, 825 D - 828 A), cf. Lafleur, La Famille 13 dans l&#039;évangile de Marc, p. 125-127
+</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 200r a quart. 1 inc.-200r a quart. 4 med.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Iosippus,  Index decem apparitionum domini post resurrectionem</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Indices christiani rerum notabilium</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent, Αἱ ἐπιφανεῖαι τοῦ κυρίου μετὰ τὴν ἀνάστασιν. / Incipit, α´. Καὶ περὶ Μαρίαν ἐν τῶ μνήματι.  / Desinit, ι΄. Ἐν τῶ οὐρανῶ ἀνερχόμενος. Μετὰ τὴν εἰς οὐρανοὺς ἄνοδον τῶ α΄ μάρτυρι(πρωτομάρτυρι) Στεφάνω.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 205r a quart. 4 med.-208v b quart. 4 des.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Iohannes Chrysostomus,  Quaestiones In Parabolas</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Opera integra uaria in codicibus biblicis quoque inuenta</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent, Ερμηνεῖαι ἐκ τοῦ κατὰ Λουκᾶν ἁγίου ευαγγελίου. / Incipit cuiusdam partis, Ἄνθρωπος τίς κατέβαινεν ἀπὸ Ἰερουσαλὴμ εἰς Ἰεριχῶ / Incipit cuiusdam partis, Τί λέγει ἐν τῶ σοζʹ περὶ τοῦ ἀγοράσαι  μάχαιραν; / Incipit, Τίς ὁ ἄνθρωπος; ὁ Ἀδάμ</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>Cf. Lafleur, La Famille 13 dans l&#039;évangile de Marc, p. 127</p:inhaltKommentar>
+            </p:inhalt>
+        </p:cu>
+    </p:manuskriptType>
+</p:sammlung>

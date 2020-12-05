@@ -1,0 +1,48 @@
+version: '3'
+services:
+  php:
+    build: build/php
+    expose:
+      - '9000'
+    ports:
+        - "8000:8000"
+    depends_on:
+      - db
+    volumes:
+      - ./symfony:/var/www/html/symfony:cached
+      - ./logs:/var/log
+  web:
+    build: build/nginx
+    restart: always
+    ports:
+        - "81:80"
+    depends_on:
+        - php
+        - db
+    volumes:
+        - ./symfony:/var/www/html/symfony:cached
+        - ./logs:/var/log/nginx
+        
+  db:
+    image: mysql/mysql-server:5.5
+    environment:
+        MYSQL_ROOT_PASSWORD: root
+        MYSQL_DATABASE: pinakes
+        MYSQL_USER: rpinakes
+        MYSQL_PASSWORD: pinakes
+    ports:
+      - "3307:3306"
+    volumes:
+      - ./mysqldata:/docker-entrypoint-initdb.d
+
+  mongo:
+   image: mongo:4.1
+   environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=struviroot
+      - MONGO_INITDB_DATABASE=struviman
+   ports:
+    - "27017:27017"
+   volumes:
+    - ./mongoinit:/docker-entrypoint-initdb.d
+

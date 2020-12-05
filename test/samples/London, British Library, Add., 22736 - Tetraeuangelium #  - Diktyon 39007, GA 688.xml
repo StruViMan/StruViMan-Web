@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<p:sammlung xmlns:p="urn:Test.Namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:Test.Namespace manuscript-v06.xsd ">
+    <p:manuskriptType>
+        <p:meta>
+            <p:manuSignatur>London, British Library, Add., 22736</p:manuSignatur>
+            <p:manuTitel>Tetraeuangelium</p:manuTitel>
+            <p:manuReferenz>39007, GA 688</p:manuReferenz>
+            <p:manuKopist></p:manuKopist>
+            <p:manuKommentar></p:manuKommentar>
+            <p:manuDatum></p:manuDatum>
+            <p:manuLink>https://pinakes.irht.cnrs.fr/notices/cote/39007/</p:manuLink>
+        </p:meta>
+        <p:cu>
+            <p:cuMeta>
+                <p:cuNummer>1.A</p:cuNummer>
+                <p:cuFolio>f. 1-226</p:cuFolio>
+                <p:cuTitel>Tetraeuangelium cum tabulis liturgicis, capitulis, imag.</p:cuTitel>
+                <p:cuReferenz></p:cuReferenz>
+                <p:cuTyp>Unité principale (primaire)</p:cuTyp>
+                <p:cuDatum>12, 1179</p:cuDatum>
+                <p:cuKopist>Ἰωάννης Θεολογίτης (copiste)</p:cuKopist>
+                <p:cuKommentar>Also: various other annotations on the flyleaves and f. 12v, 68v, 176v, 224v, 225r</p:cuKommentar>
+            </p:cuMeta>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 1r-10r</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Tabulae liturgicae</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Liturgica</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12-14?</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Pas clair</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 10v</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Actus Apostolorum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12-14?</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Pas clair</p:inhaltBezugCU>
+                <p:inhaltKommentar>Extract: Act. 1,1-8</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 11r-12r quart. 2</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Matth.: capitula</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Capitula librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12 (1179)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>inc. et des. = ed.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 12v</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Imago picta</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Imagines</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12 (1179)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>- Imago Matth. euang.
+- See also explanation in UC 2.Q.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 13r-66v</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Matthaeum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12 (1179)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 67v-68r</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Marc.: capitula</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Capitula librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12 (1179)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>inc. et des. = ed.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 68v</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Imago picta</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Imagines</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12 (1179)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>- Imago Marc. euang.
+- See also explanation in UC 2.Q.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 69r-107r</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Marcum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12 (1179)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 108r-109r</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Luc.: capitula</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Capitula librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12 (1179)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>inc. et des. = ed.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 109v</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Imago picta</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Imagines</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12 (1179)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>- Imago Luc. Euang.
+- See also explanation in UC 2.Q.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 110r-175v</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Lucam</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12 (1179)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 176r</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Ioh.: capitula</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Capitula librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12 (1179)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>inc. et des. = ed.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 176v</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Imago picta</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Imagines</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12 (1179)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>- Imago Ioh. euang.
+- See also explanation in UC 2.Q.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 177r-224r</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Iohannem</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12 (1179)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 224v a quart. 1 inc.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Annotatio anagraphica copistae</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Annotationes</p:inhaltKategorie>
+                <p:inhaltDetails>Textus, επληρωθη το παρον αγιον ευαγγελιον δια χειρος Ιωαννου αναγνωστου του Θεολογιτου κατα μηνα Ιουνειου, ινδικτιωνι ι΄ (?), ετους ͵ςχπζ΄.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12 (1179)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 226v</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Explanatio chronologica de Paschate</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Chronologica</p:inhaltKategorie>
+                <p:inhaltDetails>Incipit, Πασχαλιον. 1685 θεμελιον σε σεληνης – δ΄  / Desinit, και η μνηνη αυτου ημερα – β΄ </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 17? (1685?)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>EA</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+        </p:cu>
+        <p:cu>
+            <p:cuMeta>
+                <p:cuNummer>2.Q</p:cuNummer>
+                <p:cuFolio>f. 10v, 12r-v, 66v, 68v, 109v, 176v</p:cuFolio>
+                <p:cuTitel>Liturgica, subscriptiones, speciales</p:cuTitel>
+                <p:cuReferenz></p:cuReferenz>
+                <p:cuTyp>Unité quaternaire</p:cuTyp>
+                <p:cuDatum>14-16?</p:cuDatum>
+                <p:cuKopist></p:cuKopist>
+                <p:cuKommentar></p:cuKommentar>
+            </p:cuMeta>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 10v quart. 4 des.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Tabulae liturgicae</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Liturgica</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 14-16?</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Pas clair</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 12r</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Epistula Pauli Ad Hebraeos</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 14-16?</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Pas clair</p:inhaltBezugCU>
+                <p:inhaltKommentar>Extract: Hebr. 1,1-12</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 12v quart. 4 des.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Matth.: von Soden pp. 297-298 [40]-[58]</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Subscriptiones librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Textus, εγραψε ο Ματθαιος εδοθεν (εδοθη?) της αναληψεως μετα η΄ χρονους εις την οιουδαιαν (Ιουδαιαν) πολιν με Εβραικα λογια και γραμματα, ηγουν εις την Ανατολην μεσα.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 14-16?</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 12v quart. 4 med.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Glossarium biblicum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Lexica</p:inhaltKategorie>
+                <p:inhaltDetails>Textus, βοωντα, ηγουν βους (?) εφανη στον θρονον του θεου τουτος</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 14-16?</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>text appears to be a caption for the image, cf. UC 1.A.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 66v marg. inf.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Elenchus testimoniorum biblicorum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Recapitulationes, programmata et indices rerum biblicarum</p:inhaltKategorie>
+                <p:inhaltDetails>Textus, και αν ρωτας ποσσαις (?) προφητας εχη· εχη δυο· ο Ματθαιος· και ο Μαρκος εχη τρις· και ο Λουκας εχη προφητας τεσσαρες· και ο Ιωαννης εχη τρις. ηγουν ολοι εχουν δωδεκα προφητας.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 14-16?</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 68v quart. 1 inc.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Marc.: von Soden, pp. 297-298 [40-58]</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Subscriptiones librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Textus, …της αναληψεως εις την Ρωμην με Ρωμαικα γραμματα και λογια.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 14-16?</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>EA</p:inhaltBezugCU>
+                <p:inhaltKommentar>only part of the text is legible as the top part of the folio seems to have been cut away.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 68v quart. 4 med.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Glossarium biblicum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Lexica</p:inhaltKategorie>
+                <p:inhaltDetails>Textus, λεωντα (λεγοντα?)· ηγουν σαν λεωνταρι (λιονταρι)· εφανη στο θρονον του θεου· εις τα εξαπτερυγα.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 14-16?</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>text appears to be a caption for the image, cf. UC 1.A.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 109v quart. 1 med.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Luc.: von Soden pp. 297-298 [40] - [58]</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Subscriptiones librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Textus, και ο μεν Λουκας εγραψε μετα ιε&#039; χρονους της αναληψεως εις Αλεξανδρειαν απο την παρακαλωσιν (?) του Πετρου με λογια Εβραικα και γραμματα· ηγουν ο Πετρος, το λεγει, και ο Λουκας το γραφει, και υστερα το μεταγλοτισαν (μεταγλωττισαν), εις τα Ιεροσολυμα, οταν εσμιξεν ο θεος τα τεσσαρα ευαγγελια.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 14-16?</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 109v quart. 4 med.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Glossarium biblicum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Lexica</p:inhaltKategorie>
+                <p:inhaltDetails>Textus, κραγωτα (κεκραγοτα?)· ηγουν σαν κορακας εφανη στου θεου τον θρονον.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 14-16?</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>text appears to be a caption for the image, cf. UC 1.A.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 176v quart. 1 inc.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Ιn Ioh.: von Soden pp. 297-298 [40] - [58]</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Subscriptiones librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Textus, και ο μεν Ιωαννης εγραψε μετα τριαντα δυο χρονους εδο (εδοθη?) αναληψεως εις την Μπατινω (Πατμω?) το νησι, διοχμενος (διωγμενος)  απο τον Τραιανον τον βασιλεα.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 14-16?</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 176v quart. 1 med. - quart. 2</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Ioh.: argumenta uaria in codicibus biblicis inuenta</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Prologi Librorum Biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Textus, ετουτος και ο αδελφος του· λεγονται βοανεργες· ηγουν, υιοι της βροντης·δια τ’αυτω ενε φοβεροτερω τουτουνου το ευαγγελιον του· οτι ετουτος δεν αγαπαει την πολυλογιαν ωσαν τους αλλους ευαγγελισταδες· οτι η (οι) αλλοι πολυλογουν στες μεθοδες τους διοτι τουτο το ευαγγελιον εξεταστο (?) κειμενο οτι αυτο ξιγησις, αναγωγικoς σφαλλει, και φαινεται οτι επ’ αληθειας δεν αναστηθεται (?) ο Χριστος.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 14-16?</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 176v quart. 4 des.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Glossarium biblicum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Lexica</p:inhaltKategorie>
+                <p:inhaltDetails>Textus, αδοντας· ηγουν· αγγελος εφανη στο θρονον του θεου.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 14-16?</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>text appears to be a caption for the image, cf. UC 1.A.</p:inhaltKommentar>
+            </p:inhalt>
+        </p:cu>
+    </p:manuskriptType>
+</p:sammlung>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<p:sammlung xmlns:p="urn:Test.Namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:Test.Namespace manuscript-v06.xsd ">
+    <p:manuskriptType>
+        <p:meta>
+            <p:manuSignatur>Cologny (Genève), Bibliotheca Bodmeriana, Cod. Bodmer, 115</p:manuSignatur>
+            <p:manuTitel>Traités de sciences militaires</p:manuTitel>
+            <p:manuReferenz>13164</p:manuReferenz>
+            <p:manuKopist>Thomas Phillipps (possesseur), Thomas Thorpe (possesseur)</p:manuKopist>
+            <p:manuKommentar></p:manuKommentar>
+            <p:manuDatum></p:manuDatum>
+            <p:manuLink>https://pinakes.irht.cnrs.fr/notices/cote/13164/</p:manuLink>
+        </p:meta>
+        <p:cu>
+            <p:cuMeta>
+                <p:cuNummer>1</p:cuNummer>
+                <p:cuFolio>f. 001-103</p:cuFolio>
+                <p:cuTitel></p:cuTitel>
+                <p:cuReferenz></p:cuReferenz>
+                <p:cuTyp></p:cuTyp>
+                <p:cuDatum>16 (2/2), 1570-1582 ca.</p:cuDatum>
+                <p:cuKopist>Camillo Zanetti (copiste)</p:cuKopist>
+                <p:cuKommentar>Apographe du ms. Milano, Biblioteca Ambrosiana, B 119 sup (gr. 139), ff. 114-124v après la restauration de 1570</p:cuKommentar>
+            </p:cuMeta>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 001r-102r</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Mauricius imperator I,  Libri duodecim strategicorum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie></p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 16 (2/2) (1570-1582 ca.)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>Paraphrasis (ed. B. Leoni, La Parafrasi Ambrosiana dello Strategicon di Maurizio... , Milano, 2003) ; ff. 102v-103v uacua</p:inhaltKommentar>
+            </p:inhalt>
+        </p:cu>
+        <p:cu>
+            <p:cuMeta>
+                <p:cuNummer>2</p:cuNummer>
+                <p:cuFolio>f. 104-135</p:cuFolio>
+                <p:cuTitel></p:cuTitel>
+                <p:cuReferenz></p:cuReferenz>
+                <p:cuTyp></p:cuTyp>
+                <p:cuDatum>16 (2/2), 1571-1572 ca.</p:cuDatum>
+                <p:cuKopist>Camillo Zanetti (copiste)</p:cuKopist>
+                <p:cuKommentar></p:cuKommentar>
+            </p:cuMeta>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 104r-134v</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Nicephorus Phocas imperator III,  Velitatio bellica</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie></p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 16 (2/2) (1571-1572 ca.)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>F. 135r-v uacuum</p:inhaltKommentar>
+            </p:inhalt>
+        </p:cu>
+        <p:cu>
+            <p:cuMeta>
+                <p:cuNummer>3</p:cuNummer>
+                <p:cuFolio>f. 136-152, 169</p:cuFolio>
+                <p:cuTitel></p:cuTitel>
+                <p:cuReferenz></p:cuReferenz>
+                <p:cuTyp></p:cuTyp>
+                <p:cuDatum>16, 1571-1572 ca.</p:cuDatum>
+                <p:cuKopist>Camillo Zanetti (copiste)</p:cuKopist>
+                <p:cuKommentar></p:cuKommentar>
+            </p:cuMeta>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 136r-152v</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Sextus Iulius Africanus,  Ars belli (Cesti VII)</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie></p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 16 (1571-1572 ca.)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>Excerpta ; f. 169r-v uacuum</p:inhaltKommentar>
+            </p:inhalt>
+        </p:cu>
+        <p:cu>
+            <p:cuMeta>
+                <p:cuNummer>4</p:cuNummer>
+                <p:cuFolio>f. 153-168</p:cuFolio>
+                <p:cuTitel></p:cuTitel>
+                <p:cuReferenz></p:cuReferenz>
+                <p:cuTyp></p:cuTyp>
+                <p:cuDatum>18, 1761</p:cuDatum>
+                <p:cuKopist></p:cuKopist>
+                <p:cuKommentar></p:cuKommentar>
+            </p:cuMeta>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 153r-167r</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Sextus Iulius Africanus,  Ars belli (Cesti VII)</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie></p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 18 (1761)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>Apparatus bellicus (cf. ed. M. Thévenot, Veteres mathematici, Paris, 1693, p. 275-316)</p:inhaltKommentar>
+            </p:inhalt>
+        </p:cu>
+    </p:manuskriptType>
+</p:sammlung>

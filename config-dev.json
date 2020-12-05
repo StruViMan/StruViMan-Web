@@ -1,0 +1,16 @@
+{
+    "port": 9009,
+    "adminPass": "pass",
+    "allowTest": true,
+    "providers": {
+        "pinakes": {
+            "url": "http://localhost:81/notices/cote/getXML/{id}/"
+        }
+    },
+    "waterline_mongo": {
+        "adapter": "sails-mongo",
+        "config": {
+            "url": "mongodb://root:struviroot@localhost:27017/struviman"
+        }
+    }
+}

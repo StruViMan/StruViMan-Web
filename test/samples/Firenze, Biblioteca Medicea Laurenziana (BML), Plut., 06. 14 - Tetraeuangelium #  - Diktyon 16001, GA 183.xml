@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<p:sammlung xmlns:p="urn:Test.Namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:Test.Namespace manuscript-v06.xsd ">
+    <p:manuskriptType>
+        <p:meta>
+            <p:manuSignatur>Firenze, Biblioteca Medicea Laurenziana (BML), Plut., 06. 14</p:manuSignatur>
+            <p:manuTitel>Tetraeuangelium</p:manuTitel>
+            <p:manuReferenz>16001, GA 183</p:manuReferenz>
+            <p:manuKopist></p:manuKopist>
+            <p:manuKommentar></p:manuKommentar>
+            <p:manuDatum></p:manuDatum>
+            <p:manuLink>https://pinakes.irht.cnrs.fr/notices/cote/16001/</p:manuLink>
+        </p:meta>
+        <p:cu>
+            <p:cuMeta>
+                <p:cuNummer>1.A</p:cuNummer>
+                <p:cuFolio>f. 1-311</p:cuFolio>
+                <p:cuTitel>Tetraeuangelium</p:cuTitel>
+                <p:cuReferenz>GA 183</p:cuReferenz>
+                <p:cuTyp>Unité principale (primaire)</p:cuTyp>
+                <p:cuDatum>11 (2/2)</p:cuDatum>
+                <p:cuKopist></p:cuKopist>
+                <p:cuKommentar>- UC preceduta da contropiatto + 2 fogli di guardia
+-  Riproduzione VMR apparentemente completa.</p:cuKommentar>
+            </p:cuMeta>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 1v-6r</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Eusebius Caesariensis,  Canones Euangeliorum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Canonica Eusebiana</p:inhaltKategorie>
+                <p:inhaltDetails>(Vis. contenu) autre élément figuratif, présent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11 (seconda metà)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>- Decorazioni delle tavole con motivi animali e vegetali.
+- f. 1r, 6v: vacua.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 7r quart. 2-8v quart. 3</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Matth.: capitula</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Capitula librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Desinit, ξηʹ Περι της αιτησεως του σωματος του κυριου.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11 (seconda metà)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>f. 9r: vacuum.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 9v</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Imago picta</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Imagines</p:inhaltKategorie>
+                <p:inhaltDetails>(Vis. contenu) portrait, présent,  / (Vis. position) pleine page, présent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11 (seconda metà)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>Al di sopra dell&#039;immagine compare l&#039;inscriptio: ο αγιος Ματθαιος</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 10r-94v quart. 3</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Matthaeum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent,  / Titulus finalis, absent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11 (seconda metà)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>Fine del testo evangelico in forma cruciforme.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 95r quart. 1 med.-96r quart. 3</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Marc.: capitula</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Capitula librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Desinit, μηʹ Περι της αιτησεως του σωματος του κυριου. </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11 (seconda metà)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>f. 96v, 97r: vacua.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 97v</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Imago picta</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Imagines</p:inhaltKategorie>
+                <p:inhaltDetails>(Vis. contenu) portrait, présent,  / (Vis. position) pleine page, présent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11 (seconda metà)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>Sull&#039;immagine compare l&#039;inscriptio: ο αγιος Μαρκος.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 98r-151v quart. 3</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Marcum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent,  / Titulus finalis, absent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11 (seconda metà)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 152r quart. 2-154r quart. 2</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Luc.: capitula</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Capitula librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Desinit,  πγʹ Περι Κλεοπα.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11 (seconda metà)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>f. 154v, 155r: vacua.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 155v-155v</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Imago picta</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Imagines</p:inhaltKategorie>
+                <p:inhaltDetails>(Vis. contenu) portrait, présent,  / (Vis. position) pleine page, présent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11 (seconda metà)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>Sull&#039;immagine compare l&#039;inscriptiο: ο αγιος Λουκας.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 156r quart. 1 inc.-244r quart. 4 med.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Lucam</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent,  / Titulus finalis, absent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11 (seconda metà)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 244v quart. 1 med. - quart. 4 med.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Ioh.: capitula</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Capitula librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Desinit abruptus, ιϛʹ  Περι του νιπτηρος.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11 (seconda metà)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>La lista è incompleta delle ultime righe, che sono state aggiunte da altra mana in età, come sembra, posteriore, sul f. 245r.  Non chiaro per quale motivo il copista ha omesso gli ultimi due capitula. Non sembrano essere andati perduti fogli del quinione. La pagine recante l&#039;immagine dell&#039;apostolo Giovanni sul verso appare un foglio aggiunto in fase di legatura del manoscritto.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 245r quart. 1 med.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Ioh.: capitula</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Capitula librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Textus, ιζʹ Περι του παρακλητου. ιηʹ Περι της αιτησεως του κυριακου σωματος.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 13??</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>EA</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 245v</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Imago picta</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Imagines</p:inhaltKategorie>
+                <p:inhaltDetails>(Vis. contenu) portrait, présent,  / (Vis. position) pleine page, présent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11 (seconda metà)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>Sulla immagine compare l&#039;inscriptio: ο αγιος Ιωαννης ο θεολογος.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 246r-311v quart. 3</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Iohannem</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent,  / Titulus finalis, présent,  / Doxologia uel Inuocatio, présent, 	</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11 (seconda metà)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 311v quart. 4 med.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Incipit &quot;Χριστω χαρις&quot;</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Versus et Epigrammata</p:inhaltKategorie>
+                <p:inhaltDetails>Textus, Χριστω χαρις τω των καλων τελειωτη.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11 (2/2)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+        </p:cu>
+        <p:cu>
+            <p:cuMeta>
+                <p:cuNummer>2.S</p:cuNummer>
+                <p:cuFolio>f. 10r--311v,  312-350</p:cuFolio>
+                <p:cuTitel>Tabulae liturgicae</p:cuTitel>
+                <p:cuReferenz></p:cuReferenz>
+                <p:cuTyp>Unité ternaire</p:cuTyp>
+                <p:cuDatum>15, 1418</p:cuDatum>
+                <p:cuKopist></p:cuKopist>
+                <p:cuKommentar>- Nota bene: l&#039;apparatus liturgicus dei vangeli non appartiene all&#039;unità di produzione 1.A, ma è dovuto allo stesso copista che ha realizzato l&#039;unità di produzione 2.S.
+- UC seguita da 1  foglio di guardia + contropiatto</p:cuKommentar>
+            </p:cuMeta>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 312r a quart. 1 inc.-349v a quart. 2</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Tabulae liturgicae</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Liturgica</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus finalis, présent, Τελος συν θεω αγιω, του μηνολογιου. αμην ͵αυιηʹ σεπτεβριος (σεπτεμβριος)</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 15 (1418)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>- Sottoscrizione finale delle tavole liturgiche. Contiene indicazione temporale: settembre 1418.
+- f. 350 r-v: vacuum.</p:inhaltKommentar>
+            </p:inhalt>
+        </p:cu>
+    </p:manuskriptType>
+</p:sammlung>

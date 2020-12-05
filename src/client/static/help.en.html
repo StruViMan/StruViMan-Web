@@ -1,0 +1,333 @@
+<html>
+
+<head>
+	<title>Information and help</title>
+	<script src="js/vue.js"></script>
+	<link href="css/staticwin.css" rel="stylesheet" />
+	<script src="js/uielements.js"></script>
+	<link href="css/theme-chalk/index.css" rel="stylesheet" />
+
+	<style>
+		p {
+			font-size: 16px;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		ul {
+			font-size: 16px;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		.buttonlist {
+			font-size: 15px;
+		}
+
+		.button {
+			color: #fff;
+			background-color: #409EFF;
+			border-color: #409EFF;
+		}
+
+		h1 {
+			font-size: 20px;
+		}
+
+		h2 {
+			font-size: 18px;
+			text-indent: 25px;
+		}
+	</style>
+
+</head>
+
+<body>
+	<div id="vueapp">
+<p style="text-align: center">You can also read the following information in PDF format: <a href="pdf/help.en.pdf" download>Download (PDF)</a></p>
+		<el-collapse v-model="activeNames" @change="handleChange">
+			<el-collapse-item name="1">
+				<template slot="title">
+					<h1>What is StruViMan?</h1>
+				</template>
+				<div class="panel-body">
+					<p>A growing number of manuscripts are available digitally online. This offers new opportunities for scholars to engage with manuscripts and their contents. Since ancient codices are complex objects and their current state is often the result of several layers of production, it is useful to explore their dimensions in a way that goes beyond image and text. Differences in production units, material support, quires and scribes (to name but a few) can all provide insight into the development of the codex as an evolving object over time.</p>
+
+					<p>The Structural Visualization of Manuscripts (StruViMan) is a web service that was created as a practical extension of the <a href="https://www.ptb.gwi.uni-muenchen.de/" target="_blank">Paratexts of the Greek Bible Project</a>, an ERC project based at the LMU in Munich. Using mainly digital reproductions (such as those available through the <a href="http://ntvmr.uni-muenster.de/" target="_blank">NTVMR</a> at University Μünster), the team carefully reviews each New Testament manuscript and the presence of biblical texts and paratexts is documented in a database.</p>
+
+					<p>StruViMan takes these manuscript data and transforms them into a visual representation that reveals a manuscript’s structure at a glance. The visualization provides information related both to the codex’s chronological development (here in the form of the different production units) and to the structural aspects of its contents (in this model, these are arranged by category). Further information is accessed easily by clicking on the relevant parts of the visualization.</p>
+					
+					<p>The visualization is currently accessible via three variants:
+						<ul>
+							<li>On the results page of a manuscript on the website <a href="https://www.ptb.gwi.uni-muenchen.de/" target="_blank">Paratexts of the Greek Bible</a> under the item <b>Visualization of this manuscript</b>.</li>
+							<li>On the results page of a manuscript on the website <a href="https://pinakes-dev.irht.cnrs.fr/" target="_blank">Pinakes </a>top left under the item <b>Visualiseur</b>.</li>
+							<li>Click directly here on the <a href="https://www.struviman-test.gwi.uni-muenchen.de/" target="_blank">StruViMan website</a> on the small graphic in the upper right corner. There you will find a few selected manuscripts.</li>
+						<ul>
+					</p>
+				</div>
+			</el-collapse-item>
+
+			<el-collapse-item name="2">
+				<template slot="title">
+					<h1>Technical Concept</h1>
+				</template>
+				<div class="panel-body">
+					<p>The StruViMan web service is on the one hand connected to the <a href="https://pinakes.irht.cnrs.fr/" target="_blank">Pinakes project</a> and on the other hand to the <a href="https://www.ptb.gwi.uni-muenchen.de/" target="_blank">PtB project</a>. Both projects use the same database, but sometimes show different aspects of a handwriting.</p>
+					
+					<p>The <a href="https://www.ptb.gwi.uni-muenchen.de/" target="_blank">PtB project</a> is currently under construction. After entering a dictyon number, selected details of the respective handwriting are displayed (<a href="https://www.ptb.gwi.uni-muenchen.de/de/manuscript/?cote=55612" target="_blank">example</a>). There you will find the link to the visualization of the handwriting:</p>
+					
+					<p style="text-align:center"><img src="images/help/visualization.png" alt="PtB Link"></p>					
+
+					<p>On the <a href="https://pinakes.irht.cnrs.fr/" target="_blank">Pinakes website</a> users have also the opportunity to view detailed manuscript data. On <a href="https://pinakes.irht.cnrs.fr/" target="_blank">Pinakes</a> page associated with a particular manuscript there are several options in the upper right corner:</p>
+
+					<p style="text-align:center"><img src="images/help/pinakes.png" alt="Pinakes Link"></p>
+
+					<p>By clicking on the "Visualiseur" option, users will be redirected to the StruViMan web service in a new tab in the same browser window, analogously also for the PtB project. The two tabs are linked to a SessionID. Further manuscripts are thus also displayed in the currently open StruViMan tab. If several StruViMan tabs or windows are open, they will all appear the same (or, at the latest, after refreshing the page).</p>
+
+					<p>The implementation of StruViMan was based on the latest web programming standards: Vue.js, a JavaScript web framework, HTML5 and CSS3. The visualization of StruViMan is a vector graphic (SVG).</p>
+
+					<p>The data from the database is stored in an XML file using PHP and an XML schema (XSD) and sent to our server via JSON (server platform: Node.js).</p>
+
+					<p>The server-side component is necessary because it is not hosted on the same server as the database from <a href="https://pinakes.irht.cnrs.fr/" target="_blank">Pinakes</a> and <a href="https://www.ptb.gwi.uni-muenchen.de/" target="_blank">PtB</a> and it is therefore easier for the Struviman server to collect and parse the XMLdata from the database before forwarding it to the browser. As such, it can also be easily extended to interact with other systems or servers to provide similar visualization functionality. If you are interested, please get in touch with one of the contact persons (information available in the bar at the bottom of the screen).</p>
+
+					<p>In the future it is also planned to make the software publicly available as open source.</p>
+				</div>
+			</el-collapse-item>
+
+			<el-collapse-item name="3">
+				<template slot="title">
+					<h1>Design</h1>
+				</template>
+
+				<div class="panel-body">
+					<p>The visualization represents the view of a book on its side.</p>
+
+					<p><img src="images/help/design-concept-en.png" alt="Design Concept"></p>
+
+						<p><b>Production units:</b> the spine of the book in this example consists of a bar divided into two differently-colored sections. It shows how many production units are present in the manuscript and at what point in the manuscript they occur.</p>
+						
+						<p><b>Pieces of content:</b> the pages of the book not only give an overview of the pieces of content inside the codex, but also show how much space each item occupies. The colors show which pieces of content are part of the same category. It is also easy to see which sections of the book belong to the same production unit.</p>
+						
+						<p>Different production units are distinguished by their different <b>colors</b>. The same color, on the other hand, is assigned to content elements which belong to the same category. For example, the content elements belonging to the category Imagines all receive the color black. The color schemes of production units and content elements never overlap. In Advanced Mode all colors can be individually adjusted.
+						</p>
+				</div>
+			</el-collapse-item>
+
+			<el-collapse-item name="4">
+				<template slot="title">
+					<h1>Main Window</h1>
+				</template>
+				<div class="panel-body">
+					<p>There are two different workspaces, each offering a specific set of options:</p>
+
+					<p><img src="images/help/mw-easy-en.png" alt="Easy Workspace"></p>
+
+					<p>The <b>Easy Workspace’s</b> fixed settings make it especially suitable for new or casual users. This mode is active when the switch in the upper right-hand corner of the main window is set to “Easy” and the frame takes on a light gray color.</p>
+
+					<p><img src="images/help/mw-adv-en.png" alt="Advanced Workspace"></p>
+
+					<p>In the <b>Advanced Workspace</b> there is an extended range of options for adjusting the graphic. It is active when the switch is set to “Advanced” and the frame takes on a dark gray color.</p>
+				</div>
+			</el-collapse-item>
+
+			<!-- Untermenü -->
+			<el-collapse-item name="5">
+				<template slot="title">
+					<h2>Options in the Easy Workspace</h2>
+				</template>
+				<div class="panel-body">
+					<p><img src="images/help/mslist-en.png" alt="Manuscript list"></p>
+					<p>All manuscript present in a given session are listed top left in <b>manuscripts</b>. A single click on a title opens an information window underneath it with basic information about the manuscript. A double click on the title opens or focusses the relevant visualization. Additionally, one can click on the following icon <i class="el-icon-view"></i> to open the visualization of a manuscript.</p>
+
+					<p><b>Manuscripts can be removed from the manuscript list in the following ways:</b>
+							<ul>
+								<li>Single manuscripts can be removed by clicking the Trash icon on the left side next to the title.</li>
+								<li>If one checks one or more of the checkboxes located next to the title and then clicks on the Trash icon in the last row of the manuscript list, multiple manuscripts will be removed at the same time.</li>
+								<li>By clicking the checkbox in the last row of the manuscript list and subsequently clicking on the Trash icon next to it, all manuscripts are removed from the list.</li>
+							</ul>
+					</p>
+
+						<p>The following <b>Menu Options</b> appear when more than one manuscript is loaded into the list (except the help button, which is always there):</p>
+						
+						<p class="buttonlist">
+							<el-button icon="el-icon-question" class="button"></el-button> <b>Information & Help:</b> opens this window.
+						</p>
+						
+						<p class="buttonlist">
+							<el-button icon="el-icon-menu" class="button"></el-button> <b>Tile Manuscripts:</b> arranges all open manuscripts on the workspace in an orderly and pre-determined way (please see the graphic below).
+						</p>
+						<p><img src="images/help/tile-en.png" alt="Tile"></p>
+						
+						<p class="buttonlist">
+							<el-button icon="el-icon-circle-plus" class="button"></el-button> <b>Show all:</b> opens all manuscripts in the list.
+						</p>
+						
+						<p class="buttonlist">
+							<el-button icon="el-icon-remove" class="button"></el-button> <b>Close all:</b> closes all the open manuscripts on the screen but they remain in the list.
+						</p>
+						
+						<p class="buttonlist">
+							<el-button icon="el-icon-delete" class="button"></el-button> <b>Remove all:</b> removes all manuscripts from the list.
+						</p>
+				</div>
+			</el-collapse-item>
+
+			<!-- Untermenü -->
+			<el-collapse-item name="6">
+				<template slot="title">
+					<h2>Options in the Advanced Workspace</h2>
+				</template>
+				<div class="panel-body">
+					<p>In addition to all the options of the easy workspace, more settings are available here that change the display of the visualization. These options are also available in the manuscript window (with the exception of the first option), where they can be set individually for each manuscript.</p>
+
+					<p class="buttonlist">
+						<el-button icon="el-icon-setting" class="button"><i class="el-icon-arrow-down"></i></el-button>
+						<b>Settings:</b> opens the Settings menu:
+					</p>
+					
+						<p><img src="images/help/settings-en.png" alt="Settings">
+						</p>
+					
+						<p>
+							<ul>
+								<li><b>Change in all open windows:</b> if any changes are made in the settings menu, this switch determines whether these changes will be applied both to all
+									open manuscripts as well as any manuscripts which may be opened later (turn the switch on) OR only to any manuscripts which may be opened later.</li>
+					
+								<li>The four switches underneath allow the user to show or hide different descriptive labels and text areas within the visualization:
+									<ul>
+										<li><b>Production Unit Labels:</b> the number and date of each production unit.</li>
+										<li><b>Content Segment Labels:</b> the labels which identify the contents.</li>
+										<li><b>Title:</b> the manuscript shelfmark and the title it has been given in <a href="https://pinakes.irht.cnrs.fr/" target="_blank">Pinakes</a>.</li>
+										<li><b>Info Area:</b> the box below the visualization which changes according to which part of the visualization the user clicks on.</li>
+									</ul>
+								</li>
+					
+								<li><b>Content Segment display:</b> this allows the user to determine how the content segments are displayed:
+									<ul>
+										<li><b>Best Readability:</b> logarithmic adjustment of the segment size (according to the formula ln(a+1) small segments are enlarged, large segments are decreased in size). Parallel contents are presented as such.</li>
+										<li><b>Proportional:</b> the number of folios/pages occupied by the content elements determines the size of the segments. Parallel contents are presented as such.</li>
+										<li><b>All Content equal:</b> all segments are displayed equal in size. Parallel content elements are not displayed as such, but all elements are displayed serially one after the other.</li>
+									</ul>
+								</li>
+							</ul>
+						</p>
+					
+						<p>All changes are immediately visible and can be accepted (<b>OK</b>) or rejected (<b>Cancel</b>). <b>Reset</b> returns all setting to their initial position.</p>
+				</div>
+			</el-collapse-item>
+
+			<el-collapse-item name="7">
+				<template slot="title">
+					<h1>Manuscript Window</h1>
+				</template>
+				<div class="panel-body">
+					<p>It is possible to open multiple manuscript windows within the main window. In this way, for example, different manuscripts can be can be compared with each other. The user has the option here to work in two separate modes regardless of what mode is active in the main window (the blue background is the active mode).</p>
+
+					<p><img src="images/help/easy-mode-en.png" alt="Easy Mode">&nbsp;&nbsp;<img
+							src="images/help/advanced-mode-en.png" alt="Advanced Mode"></p>
+
+					<p><b>Why are there two different modes?</b><br>
+						StruViMan is designed to be both intuitive and easy to operate for a beginner. Moreover, Easy Mode can provide fast and simple access to the visualizations of various manuscripts without requiring the user to change any settings.<br>
+					</p>
+
+					<p>The extended number of options and a greater degree of customizability in the display is what Advanced Mode has to offer users wishing to have greater control over individual aspects of their manuscript visualizations.
+					</p>
+
+				</div>
+
+			</el-collapse-item>
+			<!-- Untermenü -->
+			<el-collapse-item name="8">
+				<template slot="title">
+					<h2>Options in Easy Mode</h2>
+				</template>
+				<div class="panel-body">
+					<p><b>Basic Information:</b>
+							<p>The manuscript window has a fixed size in Easy Mode and, as such, the window size cannot be altered. Even manuscripts with a large amount of content elements are initially displayed in this standard size. This abbreviated display can be  expanded, however, by clicking on the tag labelled “<span style="color:red">+++</span>” (located underneath the last content element shown in the abbreviated display).</p>
+
+						<p>If the user hovers over a content element in the visualization, a pop-up containing the relevant information will appear. A click on an individual element within the graphic causes information from the database relevant to that element to be displayed in the information area below. Clicking on any of the white spaces in the manuscript window results in the
+						display of select information relating to the manuscript as a whole in the information area. </p>
+						<p>Every time the user switches back to Easy Mode, this acts as a reset for the graphic. The settings chosen in Advanced Mode are then changed back to the main settings.</p>
+					</p>
+
+					<p><b>Description of Individual Functions:</b></p>
+						<p class="buttonlist">
+							<el-button icon="el-icon-picture" class="button"></el-button> <b>Screenshot:</b>
+						</p>
+						<p>With a click this button, a new window opens where the user can right-click and save the image locally to their computer.<br>
+							This window can be closed by click on the light gray “x” in the top right corner.
+						</p>
+						
+						<p class="buttonlist">
+							<el-button icon="el-icon-setting" class="button"></el-button> <b>Show/hide Labels:</b>
+						</p>
+						<p>Show or hide <b>Production Unit Labels</b> and <b>Content Segment Labels.</b>.
+						</p>
+
+				</div>
+
+			</el-collapse-item>
+
+			<!-- Untermenü -->
+			<el-collapse-item name="9">
+				<template slot="title">
+					<h2>Options in Advanced Mode</h2>
+				</template>
+				<div class="panel-body">
+					<p><b>Basic Information:</b>
+						<p>All adjustments made to the settings made in Advanced Mode are preserved, even when the manuscript window is closed (as long as it has not been removed from the manuscript list). The same manuscript can also be opened multiple times in
+						different manuscript windows and the settings can be customized in each of these open windows. Every time the user switches back to Easy Mode, this acts as a reset for the graphic. The settings chosen in Advanced Mode are then changed back to the main settings.</p>
+
+						<p>In Advanced Mode the manuscript window size can be adjusted in all directions. So, for example, the size of the Information Area can be adjusted if not all the content is visible (this is done by expanding the window to the right).</p>
+					</p>
+
+					<p><b>Description of Individual Functions:</b></p>
+					<p><img src="images/help/display-mode-en.png" alt="Display Mode"></p>
+					<p>The first function on the left side allows the user to determine how the content segments are displayed. This option is also available in the Main Window.
+						<ul>
+							<li><b>Best Readability:</b> logarithmic adjustment of the segment size (according to the formula ln(a+1) small segments are enlarged, large segments are decreased in size). Parallel contents are presented as such.</li>
+							<li><b>Proportional:</b> the number of folios/pages occupied by the content elements determines the size of the segments. Parallel contents are presented as such.</li>
+							<li><b>All Content equal:</b> all segments are displayed equal in size. Parallel content elements are not displayed as such, but all elements are displayed serially one after the other.</li>
+						</ul>
+					</p>
+
+						<p class="buttonlist">
+							<el-button icon="el-icon-picture" class="button"></el-button> <b>Screenshot:</b>
+						</p>
+						<p>With a click this button, a new window opens where the user can right-click and save the image locally to their computer.<br>
+							This window can be closed by click on the light gray “x” in the top right corner.
+						</p>
+						
+						<p class="buttonlist">
+							<el-button icon="el-icon-setting" class="button"><i class="el-icon-arrow-down"></i></el-button> <b>Show/hide Labels:</b>
+						</p>
+						<img src="images/help/showhidelabels-en.png" alt="show/hide Labels">
+						<p>The four switches allow the user to show or hide different descriptive labels and text areas within the visualization:
+							<ul>
+								<li><b>Production Unit Labels:</b> the number and date of each production unit.</li>
+								<li><b>Content Segment Labels:</b> the labels which identify the contents.</li>
+								<li><b>Title:</b> the manuscript shelfmark and the title it has been given in <a href="https://pinakes.irht.cnrs.fr/" target="_blank">Pinakes</a>.</li>
+								<li><b>Info Area:</b> the box below the visualization which changes according to which part of the visualization the user clicks on.</li>
+							</ul>
+							<p>All changes are immediately visible and can be accepted (<b>OK</b>) or rejected (<b>Cancel</b>). <b>Reset</b> returns all setting to their initial position.</p>
+						</p>
+
+						<p class="buttonlist">
+							<el-button icon="el-icon-edit" class="button"><i class="el-icon-arrow-down"></i></el-button> <b>Colors & Visibility:</b>
+						</p>
+						<img src="images/help/colors-visibility-en.png" alt="change colors and visibility">
+						
+						<p><b>Option 1:</b> Here the user can change the colors of the production units (in this example "1.A") as well as the colors of each category (in this example "Testamentum nouum") that occurs in this manuscript. In this way the user can apply their own color concept.</p>
+						
+						<p><b>Option 2:</b> The user can also opt to show or hide each production unit and each category. The resulting empty space will then be dynamically filled in by the remaining elements. This function can be used to hide certain categories in the visualization or to show only one production unit.</p>
+						
+						<p>All changes are immediately visible and can be accepted (<b>OK</b>) or rejected (<b>Cancel</b>). <b>Reset</b> returns all setting to their initial position.</p>
+
+				</div>
+			</el-collapse-item>
+
+		</el-collapse>
+	</div>
+
+	<script src="js/staticwin2.js"></script>
+</body>
+
+</html>

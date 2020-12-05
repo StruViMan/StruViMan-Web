@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<p:sammlung xmlns:p="urn:Test.Namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:Test.Namespace manuscript-v06.xsd ">
+    <p:manuskriptType>
+        <p:meta>
+            <p:manuSignatur>Jerusalem, Patriarchikê bibliothêkê, Panaghiou Taphou, 049</p:manuSignatur>
+            <p:manuTitel>Tetraeuangelium</p:manuTitel>
+            <p:manuReferenz>35286, GA 1321, GA l 1438</p:manuReferenz>
+            <p:manuKopist>Ierosoluma, Monê Panaghiou Taphou (possesseur), Joseph Dacre Carlyle (possesseur)</p:manuKopist>
+            <p:manuKommentar>Cat. Aland 1321 = 487</p:manuKommentar>
+            <p:manuDatum></p:manuDatum>
+            <p:manuLink>https://pinakes.irht.cnrs.fr/notices/cote/35286/</p:manuLink>
+        </p:meta>
+        <p:cu>
+            <p:cuMeta>
+                <p:cuNummer>1.G</p:cuNummer>
+                <p:cuFolio>f. 1-2,  309-310</p:cuFolio>
+                <p:cuTitel>Custodiae antiquae: fragmenta lectionarii</p:cuTitel>
+                <p:cuReferenz>GA l 1438</p:cuReferenz>
+                <p:cuTyp>Gardes</p:cuTyp>
+                <p:cuDatum>12</p:cuDatum>
+                <p:cuKopist></p:cuKopist>
+                <p:cuKommentar>- Reproductio VMR integra esse uidetur in initio et in fine codicis.
+- Sunt fragmenta e codice quodam membranaceo duabus columnis conscripto, quae ad custodiarum usum codici sunt nuper complexa. 
+- Paginatio custodias membranaceas antiquiores includit. 
+- Adsunt quoque custodiae chartaceae recentiores in initio et in fine, quae sine paginatione remanserunt. </p:cuKommentar>
+            </p:cuMeta>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 1r a quart. 1 inc.-2v b quart. 4 des.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Lectionarium incertum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Liturgica</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>Fragmentum </p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 309r a quart. 1 inc.-310v b quart. 4 des.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Lectionarium incertum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Liturgica</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>Fragmentum </p:inhaltKommentar>
+            </p:inhalt>
+        </p:cu>
+        <p:cu>
+            <p:cuMeta>
+                <p:cuNummer>2.A</p:cuNummer>
+                <p:cuFolio>f. 3-308</p:cuFolio>
+                <p:cuTitel>Tetraeuangelium cum tabulis liturgicis, canonibus, capitulis, imag., subscr.</p:cuTitel>
+                <p:cuReferenz>GA 1321</p:cuReferenz>
+                <p:cuTyp>Unité principale (primaire)</p:cuTyp>
+                <p:cuDatum>11 (1/4)</p:cuDatum>
+                <p:cuKopist></p:cuKopist>
+                <p:cuKommentar>- Saec. 18 ex. Joseph Carlyle codicem ad Londinium fecit mittere describendi causa, postea autem iterum ad Ierusalem eum dedit (communicatio Ulrich Schmid, cf. quoque Richard-Olivier, Repertoire des bibliothèques, p. 501), cuius apographum nunc est codex London, Lambeth Palace Libr., 1180.
+- Deesse uidetur folium unum post f. 16.
+- Tres manus uidentur codicem exarauisse: una principalis textum biblicum, secunda tabulas liturgicas, tertia apparatum liturg. et subscriptiones librorum biblicorum.</p:cuKommentar>
+            </p:cuMeta>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 3r quart. 1 inc.-9v quart. 4 des.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Tabulae liturgicae</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Liturgica</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11 ?</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Pas clair</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 10r quart. 1 inc.-10v quart. 4 des.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Eusebius Caesariensis,  Epistula ad Carpianum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Canonica Eusebiana</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, absent,  / Incipit, Αμμωνιος μεν [ο] Αλεξανδρευς πολλην ως εικος / Desinit, τα παραπλησια [λεγοντας] αυτους ευρησεις.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11 (1/4)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 11r quart. 1 inc.-14v quart. 4 des.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Eusebius Caesariensis,  Canones Euangeliorum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Canonica Eusebiana</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11 (1/4)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 15r quart. 1 inc.-16v quart. 4 des.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Matth.: capitula</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Capitula librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Desinit abruptus, ξϛ´ Αρνησις Πετρου.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11 (1/4)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>- Des. mut. 
+- Desunt duo ultima capitula.
+- Verisimile est unum folium post f. 16 deesse.
+- F. 17r uacuum.
+ </p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 17v</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Imago picta</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Imagines</p:inhaltKategorie>
+                <p:inhaltDetails>(Vis. contenu) portrait, présent,  / (Vis. position) pleine page, présent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11 (1/4)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>Imago Matthaei euang.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 18r-97r quart. 3</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Matthaeum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent,  / Stichometria et alia numerica, présent, ͵βχ´ / Titulus finalis, présent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11 (1/4)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 97r quart. 4 des.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Matth.: von Soden pp. 297-298 [40]-[58]</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Subscriptiones librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Textus, το κατα Ματθαιον ευαγγελιον, εξεδοθη υπ᾽ αυτου, εν Ιερουσαλημ μετα χρονους η´, της Χριστου, αναληψεως. </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11 ?</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Pas clair</p:inhaltBezugCU>
+                <p:inhaltKommentar>F. 97v uacuum.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 98r quart. 1 inc.-99r quart. 4 des.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Marc.: capitula</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Capitula librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Desinit, μη´ Περι της αιτησεως του σωματος του κυριου Ιησου.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11 (1/4)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 99v</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Imago picta</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Imagines</p:inhaltKategorie>
+                <p:inhaltDetails>(Vis. contenu) portrait, présent,  / (Vis. position) pleine page, présent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11 (1/4)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>Imago Marci euang.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 100r-150r quart. 4 med.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Marcum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent,  / Titulus finalis, absent,  / Stichometria et alia numerica, présent, ͵αχ´</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11 (1/4)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 150r quart. 4 des.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Marc.: von Soden, pp. 297-298 [40-58]</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Subscriptiones librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Textus, το κατα Μαρκον, ευαγγελιον εξεδοθη, μετα χρονους ι´, της Χριστου αναληψεως. </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11 ?</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Pas clair</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 150r marg. inf.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Annotatio maior</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Annotationes</p:inhaltKategorie>
+                <p:inhaltDetails>Textus, Marci finis</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 18-19</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>EA</p:inhaltBezugCU>
+                <p:inhaltKommentar>- Annotatio latina de fine euangelii secundum Marcum, fortasse a Josepho Carlyle exarata. 
+- F. 150v uacuum.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 151r quart. 1 inc.-153r quart. 4 des.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Luc.: capitula</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Capitula librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Desinit, πγ´ Περι Κλεοπα.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11 (1/4)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 153v</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Imago picta</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Imagines</p:inhaltKategorie>
+                <p:inhaltDetails>(Vis. contenu) portrait, présent,  / (Vis. position) pleine page, présent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11 (1/4)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>Imago Lucae euang.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 154r-238v quart. 3</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Lucam</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent,  / Titulus finalis, absent,  / Stichometria et alia numerica, présent, ͵βω´</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11 (1/4)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 238v quart. 4 des.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Luc.: von Soden pp. 297-298 [40] - [58]</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Subscriptiones librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Textus, το κατα Λουκαν ευαγγελιον, εξεδοθη μετα χρονους, ιε´ της Χριστου αναληψεως.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11 ?</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Pas clair</p:inhaltBezugCU>
+                <p:inhaltKommentar>F. 239r-240r uacua.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 240v quart. 1 med. - quart. 4 des.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Ioh.: capitula</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Capitula librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Desinit, ιη´ ... περι της αιτησεως του κυριακιου σωματος. </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11 (1/4)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>- Numeri non ubique adsunt; numerus 18 capitulo suo non contiget.
+- F. 241r uacuum.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 241v</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Imago picta</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Imagines</p:inhaltKategorie>
+                <p:inhaltDetails>(Vis. contenu) portrait, présent,  / (Vis. position) pleine page, présent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11 (1/4)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>Imago Ioh. euang.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 242r-302v quart. 1 med.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Iohannem</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent,  / Titulus finalis, absent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11 (1/4)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 302v quart. 2-308r quart. 4 des.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Tabulae liturgicae</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Liturgica</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11 ?</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Pas clair</p:inhaltBezugCU>
+                <p:inhaltKommentar>- Atramento alio exaratum secunda manu.
+- F. 308v uacuum.
+- F. 308 est cum fragmento quodam chartaceo, graece inscripto, ad tegumentum adiunctum; fragmentum istud est in reproductione uisibile ante et post f. 308. </p:inhaltKommentar>
+            </p:inhalt>
+        </p:cu>
+    </p:manuskriptType>
+</p:sammlung>

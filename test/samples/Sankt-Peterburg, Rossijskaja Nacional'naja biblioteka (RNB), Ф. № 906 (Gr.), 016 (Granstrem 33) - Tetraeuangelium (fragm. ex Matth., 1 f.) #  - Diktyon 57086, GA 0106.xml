@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<p:sammlung xmlns:p="urn:Test.Namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:Test.Namespace manuscript-v06.xsd ">
+    <p:manuskriptType>
+        <p:meta>
+            <p:manuSignatur>Sankt-Peterburg, Rossijskaja Nacional&#039;naja biblioteka (RNB), Ф. № 906 (Gr.), 016 (Granstrem 33)</p:manuSignatur>
+            <p:manuTitel>Tetraeuangelium (fragm. ex Matth., 1 f.)</p:manuTitel>
+            <p:manuReferenz>57086, GA 0106</p:manuReferenz>
+            <p:manuKopist></p:manuKopist>
+            <p:manuKommentar>Due brani di uno stesso folium.</p:manuKommentar>
+            <p:manuDatum></p:manuDatum>
+            <p:manuLink>https://pinakes.irht.cnrs.fr/notices/cote/57086/</p:manuLink>
+        </p:meta>
+        <p:cu>
+            <p:cuMeta>
+                <p:cuNummer>1.A</p:cuNummer>
+                <p:cuFolio>f. 1</p:cuFolio>
+                <p:cuTitel>Tetraeuangelium (fragm. ex Matth.)</p:cuTitel>
+                <p:cuReferenz></p:cuReferenz>
+                <p:cuTyp>Unité principale (primaire)</p:cuTyp>
+                <p:cuDatum>07</p:cuDatum>
+                <p:cuKopist></p:cuKopist>
+                <p:cuKommentar></p:cuKommentar>
+            </p:cuMeta>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 1rv</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Matthaeum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 07</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>- Contenuto: Matth. 12,17-19, 23-25: 2 brani di uno stesso folium. Cf. Treu, die griechischen Handschriften, 34.
+- nella riproduzione VMR si vedo a margine delle moderne annotazioni in greco sul contenuto.</p:inhaltKommentar>
+            </p:inhalt>
+        </p:cu>
+    </p:manuskriptType>
+</p:sammlung>

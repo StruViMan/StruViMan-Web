@@ -1,0 +1,327 @@
+<html>
+
+<head>
+	<title>Information et Aide</title>
+	<script src="js/vue.js"></script>
+	<link href="css/staticwin.css" rel="stylesheet" />
+	<script src="js/uielements.js"></script>
+	<link href="css/theme-chalk/index.css" rel="stylesheet" />
+
+	<style>
+		p {
+			font-size: 16px;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		ul {
+			font-size: 16px;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		.buttonlist {
+			font-size: 15px;
+		}
+
+		.button {
+			color: #fff;
+			background-color: #409EFF;
+			border-color: #409EFF;
+		}
+
+		h1 {
+			font-size: 20px;
+		}
+
+		h2 {
+			font-size: 18px;
+			text-indent: 25px;
+		}
+	</style>
+
+</head>
+
+<body>
+	<div id="vueapp">
+<p style="text-align: center">Vous pouvez également lire les informations suivantes au format PDF : <a href="pdf/help.fr.pdf" download>Téléchargement (PDF)</a></p>
+		<el-collapse v-model="activeNames" @change="handleChange">
+			<el-collapse-item name="1">
+				<template slot="title">
+					<h1>Qu’est-ce que StruViMan ?</h1>
+				</template>
+				<div class="panel-body">
+					<p>Un nombre croissant de manuscrits est disponible en ligne sous la forme de documents numérisés, ce qui offre aux chercheurs de nouvelles possibilités pour étudier les manuscrits et leur contenu. Puisque les anciens manuscrits sont des objets complexes et que leur état actuel est souvent le résultat de plusieurs étapes de production, il est logique d’étudier leurs composantes au-delà de l’image et du texte. Les différences d’unités de production, de support matériel, de cahiers et de copistes (pour ne nommer que quelques éléments) permettent de donner un aperçu de l’évolution du codex comme objet qui se modifie avec le temps.</p>
+
+					<p>La visualisation structurelle des manuscrits (StruViMan) est un service en ligne conçu comme une extension pratique du projet des <a href="https://www.ptb.gwi.uni-muenchen.de/" target="_blank">Paratextes de la Bible grecque</a>, un projet ERC à la LMU de Munich. En utilisant surtout des reproductions numériques (par exemple celles qui sont disponibles sur le site du <a href="http://ntvmr.uni-muenster.de/" target="_blank">NTVMR</a> de l'université Μünster), l’équipe révise chaque manuscrit du Nouveau Testament avec soin et la présence de textes bibliques et de paratextes est documentée dans une base de données.
+
+					<p>StruViMan transforme ces données sur les manuscrits en une représentation visuelle qui révèle immédiatement la structure d’un manuscrit. La visualisation fournit des informations à la fois sur l’évolution chronologique du codex (ici sous la forme des différentes unités de production) et sur les aspects structurels de son contenu (dans ce modèle, ceux-ci sont organisés par catégories). Il suffit de cliquer sur les différentes parties de la visualisation pour accéder à de plus amples informations.</p>
+					
+					<p>La visualisation est actuellement disponible en trois variantes :
+						<ul>
+							<li>Sur la page de résultats d'un manuscrit sur le site <a href="https://www.ptb.gwi.uni-muenchen.de/" target="_blank">Paratextes de la Bible grecque</a> sous le point <b>Visualization of this manuscript</b>.</li>
+							<li>Sur la page de résultats d'un manuscrit sur le site <a href="https://pinakes-dev.irht.cnrs.fr/" target="_blank">Pinakes </a>en haut à gauche sous l'item <b>Visualiseur</b>.</li>
+							<li>Cliquez directement ici sur le <a href="https://www.struviman-test.gwi.uni-muenchen.de/" target="_blank">site web de StruViMan</a> sur le petit graphique en haut à droite. Vous y trouverez quelques manuscrits sélectionnés.</li>
+						<ul>
+					</p>
+				</div>
+			</el-collapse-item>
+
+			<el-collapse-item name="2">
+				<template slot="title">
+					<h1>Concept technique</h1>
+				</template>
+				<div class="panel-body">
+					<p>Le service web StruViMan est connecté d'une part au projet <a href="https://pinakes.irht.cnrs.fr/" target="_blank">Pinakes </a> et d'autre part au projet <a href="https://www.ptb.gwi.uni-muenchen.de/" target="_blank">PtB </a>. Les deux projets utilisent la même base de données, mais présentent parfois des aspects différents d'une même écriture.</p>
+					
+					<p>Le projet <a href="https://www.ptb.gwi.uni-muenchen.de/" target="_blank">PtB</a> est actuellement en construction. Après avoir saisi un numéro diktyon, les détails sélectionnés de l'écriture correspondante sont affichés (<a href="https://www.ptb.gwi.uni-muenchen.de/de/manuscript/?cote=55612" target="_blank">exemple</a>). Vous y trouverez le lien vers la visualisation de l'écriture manuscrite : </p>
+					
+					<p style="text-align:center"><img src="images/help/visualization.png" alt="PtB Link"></p>
+					
+					<p>Sur le site <a href="https://pinakes.irht.cnrs.fr/" target="_blank">Pinakes</a>, les utilisateurs ont également la possibilité de consulter les données détaillées des manuscrits. Sur la page de résultats d'un manuscrit (<a href="http://pinakes-dev.irht.cnrs.fr/notices/cote/55612/" target="_blank">exemple</a>), il y a plusieurs options dans le coin supérieur droit:</p>
+					
+					<p style="text-align:center"><img src="images/help/pinakes.png" alt="Pinakes Link"></p>
+
+					<p>En cliquant sur l'option "Visualiseur", les utilisateurs sont redirigés vers le service web StruViMan dans un nouvel onglet de la même fenêtre de navigateur, analogue au projet PtB. Les deux onglets sont liés par un SessionID. D'autres manuscrits sont donc également affichés dans l'onglet StruViMan actuellement ouvert. Si plusieurs onglets ou fenêtres StruViMan sont ouverts, ils s'affichent tous de la même manière (au plus tard après un rafraîchissement).
+
+					<p>La mise en œuvre de StruViMan a été effectuée conformément aux normes de programmation web actuelles : Vue.js, un framework web JavaScript, HTML5 et CSS3. La visualisation de StruViMan est un graphique vectoriel (SVG).</p>
+
+					<p>Les données de la base de données sont enregistrées dans un fichier XML en utilisant PHP et un schéma XML (XSD) et envoyées à notre serveur via JSON (plate-forme serveur : Node.js).</p>
+
+					<p>Le composant côté serveur est nécessaire car StruViMan n'est pas hébergé sur le même serveur que la base de données de <a href="https://pinakes.irht.cnrs.fr/" target="_blank">Pinakes</a> et <a href="https://www.ptb.gwi.uni-muenchen.de/" target="_blank">PtB</a> et il est donc plus facile pour le serveur StruViMan de recueillir et d'analyser les données XML de la base de données avant de les transmettre au navigateur. Il peut également être facilement étendu pour interagir avec d'autres systèmes/serveurs dans le futur afin de fournir une fonctionnalité de visualisation. Si vous êtes intéressé, veuillez écrire à l'un des contacts (voir en bas à droite).
+
+					<p>À l'avenir, il est également prévu de rendre le logiciel accessible au public en tant qu'Open Source.</p>
+				</div>
+
+			</el-collapse-item>
+
+				<el-collapse-item name="3">
+					<template slot="title">
+						<h1>Conception</h1>
+					</template>
+
+					<div class="panel-body">
+						<p>La visualisation représente la tranche inférieure d’un livre (tranche de queue).</p>
+
+						<p><img src="images/help/design-concept-fr.png" alt="Design Concept"></p>
+
+						<p><b>Unités de production :</b> le dos du livre se compose d’une barre divisée dans cet exemple en deux parties de couleurs différentes. Il montre combien d’unités de production sont présentes dans le manuscrit et à quel endroit du manuscrit elles apparaissent.</p>
+
+						<p><b>Éléments de contenu :</b> Les pages du livre donnent non seulement une vue d’ensemble du contenu du codex, mais elles montrent aussi quelle place occupe chaque élément. Il est facile d'identifier les sections du livre qui appartiennent à la même unité de production.</p>
+
+						<p>Grâce à la <b>coloration</b> des unités de production, on peut facilement les distinguer. Les mêmes catégories se voient attribuer la même couleur pour les éléments de contenu (exemple : Imagines -> noir). Les unités de production et les éléments de contenu n'ont jamais la même couleur. Toutes les couleurs peuvent être personnalisées en mode avancé.
+						</p>
+					</div>
+				</el-collapse-item>
+				
+				<el-collapse-item name="4">
+					<template slot="title">
+						<h1>Fenêtre principale</h1>
+					</template>
+					<div class="panel-body">
+						<p>Il existe deux domaines de travail différents, chacun offrant un certain nombre <br>d'options :</p>
+
+						<p><img src="images/help/mw-easy-fr.png" alt="Easy Workspace"></p>
+
+						<p>Dans l'espace de travail <b>simple</b>, l'utilisateur ne peut effectuer aucun réglage et il est particulièrement adapté aux nouveaux utilisateurs ou aux utilisateurs occasionnels. Ce mode est actif lorsque l'interrupteur situé dans le coin supérieur droit de la fenêtre principale est réglé sur "simple" et que le cadre prend une couleur gris clair.</p>
+						
+						<p><img src="images/help/mw-adv-fr.png" alt="Advanced Workspace"></p>
+
+						<p>Dans l'espace de travail <b>avancé</b>, il existe plusieurs options pour ajuster le graphique. Il est actif lorsque le commutateur est réglé sur "avancé" et que l'image prend une couleur gris foncé.</p>
+					</div>
+				</el-collapse-item>
+
+					<!-- Untermenü -->
+				<el-collapse-item name="5">
+					<template slot="title">
+						<h2>Options de la fenêtre principale</h2>
+					</template>
+					<div class="panel-body">
+						<p><img src="images/help/mslist-fr.png" alt="Manuscript list"></p>
+						<p>Tous les manuscrits présents dans une session particulière sont listés sous <b>Manuscrits</b> (en haut à gauche de l’écran). Un simple clic sur un titre ouvre un onglet avec des informations de base sur le manuscrit et met en avant la visualisation correspondante. Un double clic sur le titre rouvre la fenêtre de visualisation si elle a été auparavant fermée. En outre, le symbole <i class="el-icon-view"></i> peut être cliqué pour ouvrir la visualisation d'un manuscrit.</p>
+					
+						<p><b>Les manuscrits peuvent être retirés de la liste de différentes manières:</b>
+							<ul>
+								<li> Supprimez des manuscrits individuels en cliquant sur le symbole de la corbeille <i class="el-icon-delete"></i> à gauche du titre.</li>
+								<li>En cochant une ou plusieurs cases à gauche du titre et en cliquant sur l'icône de la poubelle dans la ligne du bas, plusieurs manuscrits peuvent être retirés en même temps.</li>
+								<li>En dernière ligne, vous pouvez supprimer tous les manuscrits existants de la liste en cochant la case et en cliquant sur le symbole de la poubelle.</li>
+							</ul>
+						</p>
+
+						<p>Les options de menu suivantes apparaissent lorsque plusieurs manuscrits sont chargés dans la liste (à l’exception de l’icône d’aide, qui est toujours présente) :</p>
+
+						<p class="buttonlist">
+							<el-button icon="el-icon-question" class="button"></el-button> Information &amp; aide : ouvre cette fenêtre.
+						</p>
+
+						<p class="buttonlist">
+							<el-button icon="el-icon-menu" class="button"></el-button>  Arranger les manuscrits : optimise l’arrangement des fenêtres de visualisation.
+							<p><img src="images/help/tile-fr.png" alt="Tile"></p>
+						</p>
+
+						<p class="buttonlist">
+							<el-button icon="el-icon-circle-plus" class="button"></el-button> Montrer tout : ouvre tous les manuscrits de la liste.
+						</p>
+
+						<p class="buttonlist">
+							<el-button icon="el-icon-remove" class="button"></el-button> Fermer tout : ferme tous les manuscrits ouverts à l’écran, mais ils restent dans la liste.
+						</p>
+
+						<p class="buttonlist">
+							<el-button icon="el-icon-delete" class="button"></el-button> Supprimer tout : supprime tous les manuscrits de la liste.
+						</p>
+					
+					</div>
+				</el-collapse-item>
+
+				<!-- Untermenü -->
+				<el-collapse-item name="6">
+					<template slot="title">
+						<h2>Options dans l'espace de travail avancé</h2>
+					</template>
+				<div class="panel-body">
+				<p>
+					En plus de toutes les options de la zone simple, plusieurs réglages sont possibles ici qui modifient l'affichage de la visualisation. Ces options sont disponibles, sauf la première, également au niveau de la fenêtre du manuscrit, où elles peuvent être définies individuellement pour chaque manuscrit.
+				</p>
+						<p><el-button icon="el-icon-setting" class="button"><i class="el-icon-arrow-down"></i></el-button>
+						<b>Paramètres :</b> ouvre le menu Paramètres :
+						</p>
+							<p><img src="images/help/settings-fr.png" alt="Settings">
+							</p>
+						
+							<p>
+								<ul>
+								  <li><b>Changer dans toutes les fenêtres ouvertes :</b> lorsque des changements sont effectués dans le menu des paramètres, ce curseur détermine si ces changements doivent être appliqués à la fois aux manuscrits déjà ouverts et à ceux qui seront ensuite ouverts (activez pour cela le paramètre à l’aide du curseur) OU seulement aux manuscrits qui seront ensuite ouverts.</li><br>
+
+								  <li>Les quatre curseurs suivants permettent à l’utilisateur d’afficher ou de masquer différentes légendes et zones de texte dans les fenêtres de visualisation :<br>
+										<ul>
+											<li><b>Légendes des unités de production :</b> le numéro et la date de chaque unité de production.</li>
+											<li><b>Légendes des éléments de contenu :</b> les légendes qui précisent le contenu.</li>
+											<li><b>Titre :</b> la cote du manuscrit et son intitulé tel qu’il figure dans la base de données Pinakes.</li>
+											<li><b>Zone d’information :</b> la zone de texte placée sous le schéma, qui change en fonction de l’élément sur lequel l’utilisateur clique dans le schéma.</li>
+									</ul>
+								  </li><br>
+
+								  <li><b>Affichage des barres de contenu :</b> ici, l’utilisateur peut déterminer comment les barres de contenu doivent être affichées :<br>
+									<ul>
+										<li><b>Lisibilité optimale :</b> ajustement logarithmique de la taille de chaque segment (selon la formule ln(a+1), les petits segments sont agrandis et les grands segments sont réduits). Les contenus parallèles sont présentés comme tels.</li>
+										<li><b>Proportionnel :</b> le nombre de folios/pages d’un élément de contenu détermine la taille du segment. Les contenus parallèles sont présentés comme tels.</li>
+										<li><b>Contenu égalisé :</b> tous les segments sont de la même taille. Les éléments de contenu parallèles ne sont pas affichés en tant que tels, mais tous les éléments sont affichés en série l'un après l'autre.</li>
+									</ul>
+								  </li>
+								</ul>
+							  </p>
+							  <p>Toutes les modifications sont immédiatement visibles et peuvent être acceptées (<b>OK</b>) ou rejetées (<b>Cancel</b>). <b>Reset</b> réinitialise tous les paramètres.</p> 
+				</div>
+				</el-collapse-item>
+
+			<el-collapse-item name="7">
+				<template slot="title">
+					<h1>Fenêtre du manuscrit</h1>
+				</template>
+				<div class="panel-body">
+				<p>Il est possible d'ouvrir un nombre illimité de fenêtres de manuscrits. Par exemple, des manuscrits similaires peuvent être facilement comparés entre eux. L'utilisateur a la possibilité de travailler dans deux modes différents indépendamment de la fenêtre principale (celui avec le fond bleu est le mode actif) :</p>
+
+				<p><img src="images/help/easy-mode-fr.png" alt="Easy Mode">&nbsp;&nbsp;<img src="images/help/advanced-mode-fr.png" alt="Advanced Mode"></p>
+
+						<p><b>Pourquoi y a-t-il deux modes différents ?</b><br>
+							StruViMan est conçu pour être intuitif et facile à utiliser par les débutants. De plus, le mode simple permet un accès rapide et aisé aux visualisations des différents manuscrits sans que l’utilisateur n’ait à modifier les paramètres.<br>
+						</p>
+						
+						<p>Pour les utilisateurs qui veulent davantage contrôler des aspects précis de leurs visualisations de manuscrits, le mode avancé offre plus d’options et une plus grande personnalisation de l’affichage.
+						</p>
+			</div>
+		</el-collapse-item>
+				<!-- Untermenü -->
+				<el-collapse-item name="8">
+					<template slot="title">
+						<h2>Options du mode simple</h2>
+					</template>
+					<div class="panel-body">
+						<p><b>Informations de base:</b>
+							<p>La fenêtre a une taille fixe en mode simple, la taille de la fenêtre ne peut donc pas être modifiée. Même les manuscrits comportant de nombreux éléments de contenu sont initialement affichés dans la taille standard. Toutefois, il est possible de les agrandir en cliquant sur "<span style="color:red">+++</span>" (sous le dernier élément de contenu affiché).</p>
+					
+							<p> Si l'utilisateur passe sur un élément de contenu du graphique, l'information correspondante s'affiche dans une fenêtre contextuelle. Si l'utilisateur clique sur un élément du graphique, les informations associées de la base de données s'affichent dans la zone d'information inférieure. Si vous cliquez sur une zone blanche de la fenêtre, des méta-informations sur l'écriture manuscrite s'affichent dans la zone d'information.</p>
+							
+							<p>Chaque passage à ce mode est une réinitialisation du graphique. Les paramètres du mode avancé sont ensuite réinitialisés aux paramètres par défaut.</p>
+							
+							<p>La taille des segments de contenu est toujours affichée en mode simple dans la variante <b>Meilleure lisibilité</b>. Cela signifie que la taille des segments est ajustée de façon logarithmique.</p>
+						</p>
+					
+						<p><b>Description des différentes fonctions:</b></p>
+						<p class="buttonlist">
+							<el-button icon="el-icon-picture" class="button"></el-button> <b>Capture d’écran :</b>
+						</p>
+						<p>Un clic sur cette icône ouvre une nouvelle fenêtre dans laquelle l’utilisateur peut cliquer avec le bouton droit de la souris et enregistrer l’image localement sur son ordinateur.<br>
+						Cette fenêtre peut être fermée en cliquant sur la croix de teinte gris clair dans le coin supérieur droit.
+						</p>
+					
+						<p class="buttonlist">
+							<el-button icon="el-icon-setting" class="button"></el-button> <b>Paramètres montrer/cacher :</b>
+						</p>
+						<p>Montrer ou cacher les <b>Légendes des unités de production</b> et les <b>Légendes des éléments de contenu</b>.
+						</p>
+					
+					</div>			
+			
+				</el-collapse-item>
+			
+				<!-- Untermenü -->
+				<el-collapse-item name="9">
+					<template slot="title">
+						<h2>Options du mode avancé</h2>
+					</template>
+					<div class="panel-body">
+						<p><b>Informations de base:</b>
+							<p>Tous les réglages effectués en mode avancé sont conservés même si l'écriture est fermée (mais pas supprimée de la liste). La même écriture peut être ouverte plusieurs fois et des réglages différents peuvent être effectués à chaque ouverture. Chaque fois que vous repassez en mode simple, le graphique est réinitialisé. Les paramètres du mode avancé sont ensuite réinitialisés aux paramètres par défaut.</p>
+						
+							<p>La taille de la fenêtre peut être modifiée en mode avancé dans toutes les directions. Par exemple, vous pouvez facilement redimensionner la fenêtre si vous ne voyez pas tout le texte d'une étiquette (en zoomant la fenêtre vers la droite). La taille de la zone d'information s'adapte automatiquement à la quantité de texte.
+						</p>
+						
+						<p><b>Description des différentes fonctions :</b></p>
+						<p><img src="images/help/display-mode-fr.png" alt="Display Mode"></p>
+						<p>La première fonction à gauche permet à l’utilisateur de déterminer comment les barres de contenu sont affichées.
+							<ul>
+								<li><b>Lisibilité optimale :</b> ajustement logarithmique de la taille de chaque segment (selon la formule ln(a+1), les petits segments sont agrandis et les grands segments sont réduits). Les contenus parallèles sont présentés comme tels.</li>
+								<li><b>Proportionnel :</b> le nombre de folios/pages d’un élément de contenu détermine la taille du segment. Les contenus parallèles sont présentés comme tels.</li>
+								<li><b>Contenu égalisé :</b> tous les segments sont de la même taille. Les éléments de contenu parallèles ne sont pas affichés en tant que tels, mais tous les éléments sont affichés en série l'un après l'autre.</li>
+							</ul>
+						</p>
+						
+						<p class="buttonlist">
+							<el-button icon="el-icon-picture" class="button"></el-button> <b>Capture d’écran :</b>
+						</p>
+						<p>Un clic sur cette icône ouvre une nouvelle fenêtre dans laquelle l’utilisateur peut cliquer avec le bouton droit de la souris et enregistrer l’image localement sur son ordinateur.<br>
+						Cette fenêtre peut être fermée en cliquant sur la croix de teinte gris clair dans le coin supérieur droit.
+						</p>
+						
+					<p class="buttonlist"><el-button icon="el-icon-edit" class="button"></el-button> <b>Paramètres montrer/cacher :</b></p>
+					<img src="images/help/showhidelabels-fr.png" alt="show/hide Labels">
+				  <p>Les quatre curseurs suivants permettent à l’utilisateur d’afficher ou de masquer différentes légendes et zones de texte dans les fenêtres de visualisation :<br>
+						<ul>
+							<li><b>Légendes des unités de production :</b> le numéro et la date de chaque unité de production.</li>
+							<li><b>Légendes des éléments de contenu :</b> les légendes qui précisent le contenu.</li>
+							<li><b>Titre :</b> la cote du manuscrit et son intitulé tel qu’il figure dans la base de données Pinakes.</li>
+							<li><b>Zone d’information :</b> la zone de texte placée sous le schéma, qui change en fonction de l’élément sur lequel l’utilisateur clique dans le schéma.</li>
+						</ul>
+						<p>Toutes les modifications sont immédiatement visibles et peuvent être acceptées (<b>OK</b>) ou rejetées (<b>Cancel</b>). <b>Reset</b> réinitialise tous les paramètres.</p>
+					</p>
+
+
+					<p class="buttonlist"><el-button icon="el-icon-view" class="button"></el-button> <b>Couleurs & visibilité :</b></p>
+					<img src="images/help/colors-visibility-fr.png" alt="change colors and visibility">
+
+					<p><b>Option 1 :</b> Ici peut être modifiée la couleur des unités de production (« 1.A », dans cet exemple) et de chaque catégorie (« Testamentum nouum », dans cet exemple) qui figurent dans ce manuscrit.</p>
+
+					<p><b>Option 2 :</b> Chaque unité de production et chaque catégorie peuvent être cachées séparément. L’espace ainsi libéré est alors automatiquement rempli par les éléments restants.</p>
+
+					<p>Toutes les modifications sont immédiatement visibles et peuvent être acceptées (<b>OK</b>) ou rejetées (<b>Cancel</b>). <b>Reset</b> réinitialise tous les paramètres.</p>						
+						
+						</div>
+				</el-collapse-item>
+				
+		</el-collapse>
+	</div>
+
+<script src="js/staticwin2.js"></script>
+</body>
+
+</html>

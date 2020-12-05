@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<p:sammlung xmlns:p="urn:Test.Namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:Test.Namespace manuscript-v06.xsd ">
+    <p:manuskriptType>
+        <p:meta>
+            <p:manuSignatur>Roma, Biblioteca Angelica, gr., 011</p:manuSignatur>
+            <p:manuTitel>Tetraeuangelium</p:manuTitel>
+            <p:manuReferenz>55918, GA 179</p:manuReferenz>
+            <p:manuKopist>Filippo Vitali (autre)</p:manuKopist>
+            <p:manuKommentar>Olim A.4.11</p:manuKommentar>
+            <p:manuDatum></p:manuDatum>
+            <p:manuLink>https://pinakes.irht.cnrs.fr/notices/cote/55918/</p:manuLink>
+        </p:meta>
+        <p:cu>
+            <p:cuMeta>
+                <p:cuNummer>1.A</p:cuNummer>
+                <p:cuFolio>f. 1-22,  24-29,  31-213</p:cuFolio>
+                <p:cuTitel>Tetraeuangelium cum canonibus, capitulis</p:cuTitel>
+                <p:cuReferenz>GA 179</p:cuReferenz>
+                <p:cuTyp>Unité principale (primaire)</p:cuTyp>
+                <p:cuDatum>12</p:cuDatum>
+                <p:cuKopist></p:cuKopist>
+                <p:cuKommentar>Reproduction complète au début du manuscrit (contreplat supérieur et folios de garde au début).
+Restaurations: voir UniProd 2.R et 3.R.</p:cuKommentar>
+            </p:cuMeta>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 1r quart. 1 inc. - quart. 2</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Eusebius Caesariensis,  Epistula ad Carpianum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Canonica Eusebiana</p:inhaltKategorie>
+                <p:inhaltDetails>Incipit abruptus, ευαγγελιων αριθμοις / Desinit, ευρησεις ερρωσο εν &lt;κυριω&gt;</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>Inc. mut.
+Encre très effacée.
+Lignes suivantes: probablement le titre du premier canon.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 1r quart. 2-4r</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Eusebius Caesariensis,  Canones Euangeliorum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Canonica Eusebiana</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>f. 4v vide.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 5r-6v quart. 2</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Matth.: capitula</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Capitula librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Desinit, ξηʹ περι της αιτησεως του σωματος του [κυριου]</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 7r-22v,  24r-29v,  31r-66v quart. 4 des.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Matthaeum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent,  / Titulus finalis, absent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>Voir aussi folios de restauration (2.R): le texte est complet avec celles-ci.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 67r-67v quart. 4 des.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Marc.: capitula</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Capitula librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Desinit, μηʹ περι της αιτησεως του σωματος του κυριου</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 68r-104v quart. 1 inc.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Marcum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent,  / Titulus finalis, absent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>Annotation liturgique (référence lecture initiale) collée au titre</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 104v quart. 1 med.-105v quart. 4 des.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Luc.: capitula</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Capitula librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Desinit, πγʹ περι Κλεοπα</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 106r-174v quart. 4 des.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Lucam</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent,  / Titulus finalis, absent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 175r quart. 1 inc.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Iohannem</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails>Textus, ως η εκτη (…) λεγει αυτω</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>- Fragment: Ioh. 4,6-9:  le texte se trouve tout à fait normalement au f. 183r, où la page commence exactement avec le même texte. Hypothèse: le scribe aurait pu se tromper en recommençant son travail, prenant f. 175 laissé vide pour une insertion ultérieure des capitula, au lieu de f. 183.
+- L&#039;intervalle entre les deux est de 8 folios : débuts de cahiers?</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 175r quart. 2-175v quart. 1 med.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Ioh.: capitula</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Capitula librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Desinit, ιηʹ περι της αιτησεως του κυριακου σωματος</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 176r-213v</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Iohannem</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent,  / Desinit abruptus, ειδον εν</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>- Des. abrupt. Ioh. 18, 26.
+- Complété par la restauration 3.R.</p:inhaltKommentar>
+            </p:inhalt>
+        </p:cu>
+        <p:cu>
+            <p:cuMeta>
+                <p:cuNummer>2.R</p:cuNummer>
+                <p:cuFolio>f. 23,  30</p:cuFolio>
+                <p:cuTitel>Euang. Matth. (rest.)</p:cuTitel>
+                <p:cuReferenz>GA 179</p:cuReferenz>
+                <p:cuTyp>Restauration</p:cuTyp>
+                <p:cuDatum>17 ?</p:cuDatum>
+                <p:cuKopist></p:cuKopist>
+                <p:cuKommentar>Les deux restaurations (f. 23 et f. 30) sont de la même main.</p:cuKommentar>
+            </p:cuMeta>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 23rv</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Matthaeum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails>Incipit abruptus, μηδε δυο / Desinit abruptus, λεγω υμιν</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 17 ?</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>Le texte est continu avec l&#039;UniProd 1.A.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 30rv</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Matthaeum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails>Incipit abruptus, ο δε αποκριθεις / Desinit abruptus, εχθρος και</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 17 ?</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>Le texte est continu avec l&#039;UniProd 1.A.</p:inhaltKommentar>
+            </p:inhalt>
+        </p:cu>
+        <p:cu>
+            <p:cuMeta>
+                <p:cuNummer>3.R</p:cuNummer>
+                <p:cuFolio>f. 214-219</p:cuFolio>
+                <p:cuTitel>Euang. Ioh. (rest.)</p:cuTitel>
+                <p:cuReferenz>GA 179</p:cuReferenz>
+                <p:cuTyp>Restauration</p:cuTyp>
+                <p:cuDatum>15</p:cuDatum>
+                <p:cuKopist></p:cuKopist>
+                <p:cuKommentar>f. 219r-v vide; ce folio appartient probablement à 3.R et non à 4.B car la ficelle de milieu de quaternion est visible entre 223 et 224.</p:cuKommentar>
+            </p:cuMeta>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 214r-218v quart. 3</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Iohannem</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus finalis, absent,  / Incipit abruptus, τω κηπω</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 15</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>- Continuité avec le texte de l&#039;UniProd 1.A.
+- Ab Ioh. 18,26 usque ad finem.</p:inhaltKommentar>
+            </p:inhalt>
+        </p:cu>
+        <p:cu>
+            <p:cuMeta>
+                <p:cuNummer>4.B</p:cuNummer>
+                <p:cuFolio>f. 220-249</p:cuFolio>
+                <p:cuTitel>Tabulae liturgicae</p:cuTitel>
+                <p:cuReferenz></p:cuReferenz>
+                <p:cuTyp>Unité ternaire</p:cuTyp>
+                <p:cuDatum>15-16</p:cuDatum>
+                <p:cuKopist></p:cuKopist>
+                <p:cuKommentar>Reproduction apparemment incomplète à la fin (il manque apparemment un recto de folio de garde).
+Unité de production récente. La reproduction ne donne pas d&#039;indices sur l&#039;éventuelle autonomie originelle de cette UniProd.</p:cuKommentar>
+            </p:cuMeta>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 220r quart. 1 inc.-247v quart. 1 inc.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Tabulae liturgicae</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Liturgica</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 15-16</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>synaxaire f. 220r-238r
+
+menologion à partir de f. 238v
+
+explanatio f. 247r quart. 4 des.-247v quart. 1 inc.
+
+f. 247v fin et f. 248r vides</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 248v quart. 1 inc.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Hirmologium</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Liturgica</p:inhaltKategorie>
+                <p:inhaltDetails>Textus, ο καθημενος εν δοξη επι θρονου θεοτητος (…) δοξα τη δυναμη σου κυριε / Textus, ο αναβαλωμενος φως ως ιματιον τα υπερ ενδοξα ημων (…) και καλ&#039; αυταδελφος ως παγατιον
+</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 15-16</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>EA</p:inhaltBezugCU>
+                <p:inhaltKommentar>Ajouté sur le folio originellement vide.
+Eirmos 4 du ton 4 suivi de l&#039;eirmos 5 du ton 5
+</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 249r-249v quart. 4 des.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Tabulae liturgicae</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Liturgica</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 15-16</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>synaxaire</p:inhaltKommentar>
+            </p:inhalt>
+        </p:cu>
+    </p:manuskriptType>
+</p:sammlung>

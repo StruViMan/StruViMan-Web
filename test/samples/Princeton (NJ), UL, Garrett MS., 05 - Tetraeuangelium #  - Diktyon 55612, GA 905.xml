@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<p:sammlung xmlns:p="urn:Test.Namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:Test.Namespace manuscript-v06.xsd ">
+    <p:manuskriptType>
+        <p:meta>
+            <p:manuSignatur>Princeton (NJ), UL, Garrett MS., 05</p:manuSignatur>
+            <p:manuTitel>Tetraeuangelium</p:manuTitel>
+            <p:manuReferenz>55612, GA 905</p:manuReferenz>
+            <p:manuKopist>Hagion Oros, Skêtê Hagiou Andreou (possesseur), Νικηφόρος ἡγούμενος τῆς μονῆς Eἰκοσιφοινίσσης (possesseur)</p:manuKopist>
+            <p:manuKommentar>cat. Aland 905</p:manuKommentar>
+            <p:manuDatum></p:manuDatum>
+            <p:manuLink>https://pinakes.irht.cnrs.fr/notices/cote/55612/</p:manuLink>
+        </p:meta>
+        <p:cu>
+            <p:cuMeta>
+                <p:cuNummer>1.S</p:cuNummer>
+                <p:cuFolio>f. 1,  11</p:cuFolio>
+                <p:cuTitel>Exegetica</p:cuTitel>
+                <p:cuReferenz></p:cuReferenz>
+                <p:cuTyp>Unité de réemploi</p:cuTyp>
+                <p:cuDatum>14 (1/2)</p:cuDatum>
+                <p:cuKopist></p:cuKopist>
+                <p:cuKommentar>- Die Reproduktion auf VMR scheint vollständig zu sein. Sie enthält zusätzlich die Fotokopie eines Katalogeintrages zur Sammlung.
+- Es sind keine Vor- oder Nachsatzblätter zu erkennen. 
+- Das Bifolio, das diese UC bildet, wurde offensichtlich einer späteren Handschrift entnommen und als Schutz um das Synaxarium (s. UC 2.A) gebunden.
+</p:cuKommentar>
+            </p:cuMeta>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 1rv, 11rv</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Nicetas Heracleensis,  Scholia in orationes Gregorii Nazianzeni</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Excerpta uaria in codicibus biblicis inuenta</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 14 (1/2)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>- Kommentar mit Exzerpten der Oratio 41.</p:inhaltKommentar>
+            </p:inhalt>
+        </p:cu>
+        <p:cu>
+            <p:cuMeta>
+                <p:cuNummer>2.A</p:cuNummer>
+                <p:cuFolio>f. 2-10,  12-13,  16-19,  22-225</p:cuFolio>
+                <p:cuTitel>Tetraeuangelium</p:cuTitel>
+                <p:cuReferenz>GA 905</p:cuReferenz>
+                <p:cuTyp>Unité principale (primaire)</p:cuTyp>
+                <p:cuDatum>12 (1/2)</p:cuDatum>
+                <p:cuKopist>Μιχαὴλ μοναχός (copiste)</p:cuKopist>
+                <p:cuKommentar>Laut Annotation auf f. 224v-225r enthielt die Handschrift ursprünglich außer dem Tetraevangelium auch einen Praxapostolus, bei dem es sich möglicherweise um die ehemalige Handschrift Kosinitza MS. 53 (heute Sofia, Institut Ivan Dujčev gr. 369 und New York, Morgan Library and Museum , M.714) handeln könnte (Vgl. Kotzabassi/ Ševčenko, S. 31).</p:cuKommentar>
+            </p:cuMeta>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 2r quart. 1 inc.-10v quart. 3</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Tabulae liturgicae</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Liturgica</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12 (1/2) ?</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Pas clair</p:inhaltBezugCU>
+                <p:inhaltKommentar>-  Zu f. 1 und 11 vgl. UC 1.S.
+- f. 12r ist leer.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 12v</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Imago picta</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Imagines</p:inhaltKategorie>
+                <p:inhaltDetails>(Vis. contenu) portrait, présent,  / (Vis. position) pleine page, présent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12 (1/2)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>Maria et Christus</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 13r</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Imago picta</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Imagines</p:inhaltKategorie>
+                <p:inhaltDetails>(Vis. contenu) portrait, présent,  / (Vis. position) pleine page, présent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12 (1/2)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>- Matthaeus.
+- f. 13v war ursprünglich leer, s.u.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 13v quart. 2 - quart. 3</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Annotatio anagraphica possessoris</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Annotationes</p:inhaltKategorie>
+                <p:inhaltDetails>Annotationes uel textus slauici, présent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 19 ex. (ca. 1879)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>EA</p:inhaltBezugCU>
+                <p:inhaltKommentar>Notiz über die Übergabe des Manuskripts durch Nikephoros an die Skite Agiou Dimitriou Vatopediou 1879 auf Bulgarisch.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 13v quart. 3 - quart. 4 med.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Annotatio anagraphica possessoris</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Annotationes</p:inhaltKategorie>
+                <p:inhaltDetails>Textus, ο καθηγουμενος της ιερας μονης Εικοσιφοινησσης Νικηφορος και οι συν εμοι εν Χριστῳ αδελφοι.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 19 ex.</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>EA</p:inhaltBezugCU>
+                <p:inhaltKommentar>Name des Abtes der Skite, die in der vorhergehenden Annotation genannt wird, vgl. Kotzabassi/ Ševčenko, S. 34.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 16r-19v,  22r-72r quart. 4 med.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Matthaeum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails>Incipit abruptus, προηγεν αυτους / Titulus finalis, absent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12 (1/2)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>- inc. mut. (beginnt mit Matth 2,9), vgl. Restauration (UC 3.R).
+- lacuna (Matth 5,19-6,5), vgl. 3.R.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 72v quart. 1 inc.--73r quart. 1 med.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Marc.: argumenta miscellanea</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Prologi Librorum Biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent, Κοσμα Ινδικοπλευστου.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12 (1/2)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>- Prolog in zwei Teilen, vgl. die folgenden beiden Einträge.
+- Die Teile sind nur durch eine Initiale voneinander getrennt.
+- Der Titel bezieht sich offenbar auf beide.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 72v quart. 1 med. - quart. 3</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Cosmas Indicopleustes,  In Marc: notitia de euangelista e Cosma excerpta</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Prologi Librorum Biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Incipit, Ουτος ο δευτερος Πετρου εν Ρωμη εντειλαμενος αυτω· / Desinit, πασης της θειας γραφης.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12 (1/2)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 72v quart. 3-73r quart. 1 med.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Cosmas Indicopleustes,  In Marc: notitia breuis de euangelista  e Cosma excerpta</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Prologi Librorum Biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Incipit, Και ουτος της νεας διαθηκης / Desinit, και προμηνυσαντι θεω· και πληρωσαντι, αμην.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12 (1/2)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>f. 73v und 74r sind leer.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 74v</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Imago picta</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Imagines</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12 (1/2)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>Marcus</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 75r-113r quart. 3</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Marcum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent,  / Titulus finalis, absent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12 (1/2)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 113v quart. 1 inc.--114r quart. 3</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Luc.: argumenta miscellanea</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Prologi Librorum Biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent, Κοσμα Ινδικοπλευστου.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12 (1/2)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>- Prolog in zwei Teilen, vgl. die folgenden beiden Einträge.
+- Die Teile sind nur durch eine Initiale voneinander getrennt.
+- Der Titel bezieht sich offenbar auf beide.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 113v quart. 1 inc.-114r quart. 2</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Cosmas Indicopleustes,  In Luc: notitia de euangelista e Cosma excerpta</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Prologi Librorum Biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Incipit, Ουτος ο Λουκας· ο τριτος των ευαγγελιστων / Desinit, τoν θεοφιλη θεοφιλον.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12 (1/2)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 114r quart. 2-114r quart. 3</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Cosmas Indicopleustes,  In Luc: notitia breuis de euangelista e Cosma excerpta</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Prologi Librorum Biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Incipit, Και ουτος ο κηρυξ / Desinit, και νυν πληρωσαντι· και πληρουντι, αμην.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12 (1/2)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 114v</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Imago picta</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Imagines</p:inhaltKategorie>
+                <p:inhaltDetails>(Vis. contenu) portrait, présent,  / (Vis. position) pleine page, présent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12 (1/2)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>Lucas</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 115r-177r quart. 4 med.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Lucam</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent,  / Titulus finalis, absent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12 (1/2)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 177v quart. 1 inc.-178r quart. 4 des.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Cosmas Indicopleustes,  In Ioh: notitia de euangelista e Cosma excerpta</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Prologi Librorum Biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent, Κοσμα Ινδικοπλευστου. / Incipit, Ουτος ο θεολογος Ιωαννης· ο εξαρχος των ευαγγελιστων, ο πλειω παντων αγαπωμενος / Desinit, θεοπνευστος παλαια τε και καινη διαθηκη.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12 (1/2)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 178v</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Imago picta</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Imagines</p:inhaltKategorie>
+                <p:inhaltDetails>(Vis. contenu) portrait, présent,  / (Vis. position) pleine page, présent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12 (1/2)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>Iohannes</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 179r-224v quart. 2</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Iohannem</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent,  / Titulus finalis, présent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12 (1/2)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 224v quart. 3-225r a quart. 2</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Annotatio anagraphica copistae</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Annotationes</p:inhaltKategorie>
+                <p:inhaltDetails>Textus, εγραφη το παρον &lt;...&gt; δια χειρος Μιχαηλ μοναχου της αγιας &lt;...&gt; εχον μετα του συναξαριου, τετραδια κη΄ &lt;...&gt; μελλοντι ει τε &lt;...&gt; την &lt;...&gt; τερω την βιβλον &lt;...&gt; μετα κα΄ &lt;...&gt; εστι δε το τοιουτον βιβλιον συνηνωμενον τω πραξαποστολω, εχον &lt;...&gt; τετραδια λγ΄ μετα των δυο τετραδιων του συναξαριου.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12 (1/2)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>- Auf dem Mikrofilm sind nur noch zwei kurze Passagen des Textes zu erkennen, nach Kotzabassi/Ševčenko sind unter UV-Licht noch weitere Teile entzifferbar.
+- Ein weiterer, zwei Zeilen langer Text scheint sich im oberen Rand von f. 225r befunden zu haben.
+-  f. 225v war ursprünglich leer, vgl. 3.R.</p:inhaltKommentar>
+            </p:inhalt>
+        </p:cu>
+        <p:cu>
+            <p:cuMeta>
+                <p:cuNummer>3.R</p:cuNummer>
+                <p:cuFolio>f. 14-15,  20-21</p:cuFolio>
+                <p:cuTitel>Euang. Matth. (rest.)</p:cuTitel>
+                <p:cuReferenz></p:cuReferenz>
+                <p:cuTyp>Unité quaternaire</p:cuTyp>
+                <p:cuDatum>14?</p:cuDatum>
+                <p:cuKopist></p:cuKopist>
+                <p:cuKommentar>Restauration zweier Teile des Matthäus-Evangeliums auf eigenem Material und laut  Kotzabassi/Ševčenko, S. 31, vom selben Kopisten ein kurzer liturgischer Text auf dem Material der Hauptproduktionseinheit (2.A).</p:cuKommentar>
+            </p:cuMeta>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 14r-15v,  20r-21v</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Matthaeum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 14?</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>- Matth. 1,1-2,9 und 5,19-6,5, vgl. 2.A.
+- Der Platz auf f. 14r, an dem sich normalerweise Titel und Initiale befinden, ist leer.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 225v quart. 1 inc. - quart. 2</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Troparia</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Liturgica</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 14?</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Pas clair</p:inhaltBezugCU>
+                <p:inhaltKommentar>cf. supra</p:inhaltKommentar>
+            </p:inhalt>
+        </p:cu>
+        <p:cu>
+            <p:cuMeta>
+                <p:cuNummer>4.S</p:cuNummer>
+                <p:cuFolio>f. 226</p:cuFolio>
+                <p:cuTitel>Liturgica</p:cuTitel>
+                <p:cuReferenz></p:cuReferenz>
+                <p:cuTyp>Unité ternaire</p:cuTyp>
+                <p:cuDatum>11-12</p:cuDatum>
+                <p:cuKopist></p:cuKopist>
+                <p:cuKommentar></p:cuKommentar>
+            </p:cuMeta>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 226r quart. 1 inc.-226v quart. 4 des.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Synaxarium</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Liturgica</p:inhaltKategorie>
+                <p:inhaltDetails></p:inhaltDetails>
+                <p:inhaltDatum>Siècle 11-12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>Fragment aus dem Synaxarium Ecclesiae Constantinopolitanae für die Feste vom 16.-17. Dezember (ed. cf. Katalog).</p:inhaltKommentar>
+            </p:inhalt>
+        </p:cu>
+    </p:manuskriptType>
+</p:sammlung>

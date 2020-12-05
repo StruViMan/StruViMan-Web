@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<p:sammlung xmlns:p="urn:Test.Namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:Test.Namespace manuscript-v06.xsd ">
+    <p:manuskriptType>
+        <p:meta>
+            <p:manuSignatur>Paris, Bibliothèque nationale de France (BNF), gr., 0066</p:manuSignatur>
+            <p:manuTitel>Tetraeuangelium</p:manuTitel>
+            <p:manuReferenz>49627, GA 265</p:manuReferenz>
+            <p:manuKopist>Philibert De La Mare (possesseur)</p:manuKopist>
+            <p:manuKommentar></p:manuKommentar>
+            <p:manuDatum></p:manuDatum>
+            <p:manuLink>https://pinakes.irht.cnrs.fr/notices/cote/49627/</p:manuLink>
+        </p:meta>
+        <p:cu>
+            <p:cuMeta>
+                <p:cuNummer>1.A</p:cuNummer>
+                <p:cuFolio>f. 1-372</p:cuFolio>
+                <p:cuTitel>Tetraeuangelium cum capitulis, specialibus</p:cuTitel>
+                <p:cuReferenz></p:cuReferenz>
+                <p:cuTyp>Unité principale (primaire)</p:cuTyp>
+                <p:cuDatum>12</p:cuDatum>
+                <p:cuKopist></p:cuKopist>
+                <p:cuKommentar>- Riproduzioni VMR e Gallica complete: in entrambe presenti contropiatto iniziale, 1 foglio di guardia moderno all&#039;inizio, 1 foglio di guardia probabilmente moderno alla fine.
+- f. 1v danneggiato; dalla riproduzione di VMR esso sembra essere stato incollato al foglio di guardia precedente.
+- presenti numerose annotazioni posteriori (cf. per esempio f. 203v, f. 238v, f. 290v, f. 306v, f. 338v, f. 339r): alcune di esse sono monocondylia.
+- presenti rare annotazioni liturgiche.</p:cuKommentar>
+            </p:cuMeta>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 1v-3r quart. 4 med.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Matth.: capitula</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Capitula librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Desinit, ξη´ Περι της αιτησεως του σωματος τ&lt;ου κυριου&gt;·</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>f. 1v danneggiato; dalla riproduzione di VMR esso sembra essere stato incollato al foglio di guardia (probabilmente antico) precedente.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 3v quart. 1 inc. - quart. 2</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Annotatio maior</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Annotationes</p:inhaltKategorie>
+                <p:inhaltDetails>Textus, Αγιε Ιωαννη προφητα και προδρομε βαπτισαν και του κυριου και σωτηρος ημων Ιησου Χριστου δικην εχομεν &lt;... ...&gt; εκαλεσο. / Doxologia uel Inuocatio, présent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 13-16 (?)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>EA</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 3v quart. 2</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Annotatio maior</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Annotationes</p:inhaltKategorie>
+                <p:inhaltDetails>Textus, αρχη &lt;... &gt;ου ευ(α)γγελισ(τ)ου ου και Mατθαιον &lt;... ... ...&gt;. / Cryptographia, présent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 13-16 (?)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>EA</p:inhaltBezugCU>
+                <p:inhaltKommentar>- non bene legitur.
+- Forse Annotatio possessoris (?).</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 4r-108v quart. 4 des.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Matthaeum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent,  / Detail(s), ζητει το λοιπον εις το τελος του τοιουτου ευαγγελιστου. / Monocondylia et Monogrammata, présent,  / Titulus finalis, présent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>f. 46v: nota posteriore (cf. DC) riferita a Matth 13,24-30, mancante e aggiunto alla fine del vangelo (apparentemente dalla stessa mano). cfr. Martin 1884, p. 57, Gregory 1900, p. 173. Probabile saut du même au même.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 109r quart. 1 inc.-110v quart. 3</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Marc.: capitula</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Capitula librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Desinit, μη´ Περι της αιτησεως του κυριακου σωματος·</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 110v quart. 1 med.-110v quart. 2</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Annotatio anagraphica alia</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Annotationes</p:inhaltKategorie>
+                <p:inhaltDetails>Textus, ...του νοεμβριου μηνος της πεντακαιδεκατης...ετους ˏϛψμ´.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 13-16 (?)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>EA</p:inhaltBezugCU>
+                <p:inhaltKommentar>- Si discernono differenti date (per esempio 15 novembre 1241).
+- f. 111r: bianco</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 111v-173v quart. 4 des.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Marcum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent,  / Titulus finalis, présent,  / Apparatus liturgicus, présent,  / Apparatus de Capitulis Parallelis, présent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 123r marg. inf. quart. 4 des.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Annotatio maior</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Annotationes</p:inhaltKategorie>
+                <p:inhaltDetails>Textus, ... (?) της αγιωτατης μονης (?) ...</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12-16 (?)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>EA</p:inhaltBezugCU>
+                <p:inhaltKommentar>Forse annotatio possessoris (?)</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 174r quart. 1 inc.-174r quart. 4 des.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Notitiae episcopatuum</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Ius canonicum</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent, αι μητροπολεις της οικουμενης· αυται εισιν και αγιαι του θεου εκκλησιαι πασων (?) μητροπολεων. / Incipit, α´ η Καισαρια· / Desinit, ου τελειται γουν (?).</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12-16 (?)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>EA</p:inhaltBezugCU>
+                <p:inhaltKommentar>Lista di metropoli. Cfr lista, quasi del tutto corrispondente, in Darrouzès 1981, p. 290-292</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 174v quart. 1 inc.-176v quart. 2</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Luc.: capitula</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Capitula librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Desinit, πγ´ Περι Κλεοπα.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 176v quart. 2</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Paratextualia biblica adespota</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Paratextualia</p:inhaltKategorie>
+                <p:inhaltDetails>Textus, ο Ζαχαριας ευλογει παιδος τοκον.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12-16 (?)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>EA</p:inhaltBezugCU>
+                <p:inhaltKommentar>Testo posto alla fine della lista dei capitula di Luca, ma non presente nell&#039;edizione di von Soden. Testo tratto dal titolo dell&#039;ode biblica 9 (Luc. 1,68-79).</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 177r-290r quart. 1 med.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Lucam</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent,  / Titulus finalis, absent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>f. 290 tagliato.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 291r</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>In Ioh.: capitula</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Capitula librorum biblicorum</p:inhaltKategorie>
+                <p:inhaltDetails>Desinit, Περι της αιτησεως του κυριακου σωματος.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar></p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 291v marg. sup. quart. 1 inc.</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Paratextualia biblica adespota</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Paratextualia</p:inhaltKategorie>
+                <p:inhaltDetails>Textus, εκ το κατα Ματθαιον ευαγγελιον εξ και οκτω· ευαγγελοιαν (ευαγγελιον) κατα Μαρκον &lt;...&gt; του κατα Λουκαν ευαγγελοιαν (ευαγγελιον) &lt;...&gt; του κατα Ιωαννην ευαγγελοιαν (ευαγγελιον) δεκα &lt;...&gt;.</p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12-16 (?)</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>EA</p:inhaltBezugCU>
+                <p:inhaltKommentar>- Si discerne una lista composta dai nomi degli evangelisti e numeri. Il testo segnato sul margine interno è difficilmente leggibile.
+- Forse si tratta dei numeri dei capitula.</p:inhaltKommentar>
+            </p:inhalt>
+            <p:inhalt>
+                <p:inhaltNummer></p:inhaltNummer>
+                <p:inhaltFolio>f. 292r-372v quart. 3</p:inhaltFolio>
+                <p:inhaltReferenz></p:inhaltReferenz>
+                <p:inhaltWerk>Euangelium sec. Iohannem</p:inhaltWerk>
+                <p:inhaltId></p:inhaltId>
+                <p:inhaltKategorie>Testamentum nouum</p:inhaltKategorie>
+                <p:inhaltDetails>Titulus initialis, présent,  / Titulus finalis, absent, </p:inhaltDetails>
+                <p:inhaltDatum>Siècle 12</p:inhaltDatum>
+                <p:inhaltKopist></p:inhaltKopist>
+                <p:inhaltBezugCU>Uniprod-origin</p:inhaltBezugCU>
+                <p:inhaltKommentar>L&#039;ultimo foglio del manoscritto (f. 372) è tagliato nel margine inferiore.</p:inhaltKommentar>
+            </p:inhalt>
+        </p:cu>
+    </p:manuskriptType>
+</p:sammlung>

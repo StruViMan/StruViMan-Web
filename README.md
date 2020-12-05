@@ -68,6 +68,8 @@ npm run build
 ### Create config file
 Create a file called config.json similar to the file below. This file is used to config the server component.
 
+There exists the file config-dev.json which can be renamed to "config.json" for development purposes.
+
 ``` js
 {
     "port": 9009,  // Port where the server listens for connections.
